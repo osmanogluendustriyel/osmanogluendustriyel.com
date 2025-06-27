@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://www.osmanogluendustriyel.com/sitemap.xml
+Host: https://www.osmanogluendustriyel.com
