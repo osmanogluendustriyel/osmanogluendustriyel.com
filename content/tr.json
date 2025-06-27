@@ -1,0 +1,186 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "products": "Ürünler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Osmanoğlu Endüstriyel",
+    "subtitle": "Gebze'de Hassas CNC Tezgah Çözümleri",
+    "description": "İleri CNC teknolojisi kullanarak yüksek hassasiyetli metal parça üretiminde öncü firma. On yılı aşkın süredir Gebze'nin endüstriyel sektörüne mükemmellik, kalite ve güvenilirlik ile hizmet veriyoruz.",
+    "cta": "Teklif Al",
+    "cta2": "Hizmetlerimiz"
+  },
+  "about": {
+    "title": "Osmanoğlu Endüstriyel Hakkında",
+    "subtitle": "Gebze'deki Güvenilir CNC Tezgah Ortağınız",
+    "description": "Osmanoğu Endüstri, Gebze organize sanayi bölgesinde hassas metal parça üretiminin öncüsü konumundadır. CNC tezgah hizmetlerinde uzmanlaşarak, çeşitli endüstrilere eşsiz hassasiyet ve güvenilirlik ile yüksek kaliteli bileşenler sunuyoruz.",
+    "stats": [
+      {
+        "number": "10+",
+        "label": "Yıl Deneyim"
+      },
+      {
+        "number": "1000+",
+        "label": "Üretilen Parça"
+      },
+      {
+        "number": "50+",
+        "label": "Aktif Müşteri"
+      },
+      {
+        "number": "99.8%",
+        "label": "Hassasiyet Oranı"
+      }
+    ],
+    "features": [
+      {
+        "title": "İleri CNC Teknolojisi",
+        "description": "Tüm metal parçalar için mikron seviyesinde hassasiyet sağlayan son teknoloji CNC makineleri."
+      },
+      {
+        "title": "Kalite Güvencesi",
+        "description": "İleri ölçüm ve test ekipmanları ile titiz kalite kontrol süreçleri."
+      },
+      {
+        "title": "Hızlı Teslimat",
+        "description": "Kaliteden ödün vermeden hızlı teslimat sağlayan verimli üretim süreçleri."
+      }
+    ]
+  },
+  "services": {
+    "title": "CNC Hizmetlerimiz",
+    "subtitle": "Kapsamlı Metal Parça Üretim Çözümleri",
+    "items": [
+      {
+        "title": "CNC Freze",
+        "description": "Çeşitli metallerde karmaşık geometriler ve dar toleranslar için yüksek hassasiyetli freze işlemleri.",
+        "icon": "factory"
+      },
+      {
+        "title": "CNC Torna",
+        "description": "Silindirik parçalar, şaftlar ve döner bileşenler için hassas torna hizmetleri.",
+        "icon": "engineering"
+      },
+      {
+        "title": "Prototip Geliştirme",
+        "description": "Ürün geliştirme ve test aşamaları için hızlı prototipleme hizmetleri.",
+        "icon": "quality"
+      },
+      {
+        "title": "Seri Üretim",
+        "description": "Tutarlı kalite ve rekabetçi fiyatlarla yüksek hacimli üretim serisi.",
+        "icon": "maintenance"
+      },
+      {
+        "title": "Özel Tezgahlama",
+        "description": "Özel gereksinimlerinize ve teknik resimlerinize göre özelleştirilmiş tezgahlama çözümleri.",
+        "icon": "support"
+      },
+      {
+        "title": "Kalite Kontrol",
+        "description": "Parça spesifikasyonlarını sağlayan kapsamlı muayene ve ölçüm hizmetleri.",
+        "icon": "training"
+      }
+    ]
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Çeşitli Endüstriler İçin Hassas Metal Parçalar",
+    "categories": [
+      {
+        "name": "Otomotiv Parçaları",
+        "items": [
+          {
+            "name": "Motor Bileşenleri",
+            "description": "Pistonlar, biyel kolları ve valf bileşenleri dahil hassas işlenmiş motor parçaları."
+          },
+          {
+            "name": "Şanzıman Parçaları",
+            "description": "Otomotiv şanzımanları için yüksek hassasiyetli dişliler, şaftlar ve gövde bileşenleri."
+          },
+          {
+            "name": "Fren Bileşenleri",
+            "description": "Sıkı güvenlik ve kalite standartlarına göre üretilen kritik fren sistemi parçaları."
+          }
+        ]
+      },
+      {
+        "name": "Endüstriyel Bileşenler",
+        "items": [
+          {
+            "name": "Makine Parçaları",
+            "description": "Endüstriyel ekipman ve üretim sistemleri için özel makine bileşenleri."
+          },
+          {
+            "name": "Hidrolik Bileşenler",
+            "description": "Silindirler, valfler ve bağlantı parçaları dahil hidrolik sistemler için hassas parçalar."
+          },
+          {
+            "name": "Bağlantı Elemanları",
+            "description": "Özel cıvatalar, vidalar ve özelleştirilmiş bağlantı çözümleri."
+          }
+        ]
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Neden Osmanoğlu Endüstriyel",
+    "subtitle": "Güvenilir CNC Tezgah Ortağınız",
+    "reasons": [
+      {
+        "title": "Yerel Gebze Uzmanlığı",
+        "description": "Hızlı yanıt süreleri ve kişiselleştirilmiş hizmet ile yerel endüstriyel ihtiyaçların derinlemesine anlaşılması."
+      },
+      {
+        "title": "Hassas Üretim",
+        "description": "Kritik uygulamalar için ±0.01mm'ye kadar tolerans sağlayan ileri CNC teknolojisi."
+      },
+      {
+        "title": "Malzeme Uzmanlığı",
+        "description": "Çelik, alüminyum, pirinç ve özel alaşımlarla çalışmada geniş deneyim."
+      },
+      {
+        "title": "Rekabetçi Fiyatlandırma",
+        "description": "Kalite veya teslimat programlarından ödün vermeden maliyet etkin çözümler."
+      },
+      {
+        "title": "Hızlı Teslimat",
+        "description": "Hem prototipler hem de üretim serileri için hızlı teslimat sağlayan verimli üretim planlaması."
+      },
+      {
+        "title": "Teknik Destek",
+        "description": "Tasarım optimizasyonundan nihai üretime kadar uzman mühendislik desteği."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Osmanoğlu Endüstriyel İletişim",
+    "subtitle": "CNC Tezgah İhtiyaçlarınız İçin Bizimle İletişime Geçin",
+    "info": {
+      "address": "Gebze Organize Sanayi Bölgesi, Kocaeli, Türkiye",
+      "phone": "+90 (262) XXX-XXXX",
+      "email": "info@osmanogluendustriyel.com",
+      "hours": "Pazartesi - Cuma: 08:00 - 18:00, Cumartesi: 08:00 - 13:00"
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "company": "Şirket Adı",
+      "phone": "Telefon Numarası",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder"
+    }
+  },
+  "footer": {
+    "description": "Osmanoğlu Endüstriyel - Gebze'de önde gelen CNC tezgah uzmanı, ileri teknoloji ve uzman işçilik ile hassas metal parça üretimi sağlıyor.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetler",
+    "contact": "İletişim Bilgileri",
+    "followUs": "Bizi Takip Edin",
+    "copyright": "© 2024 Osmanoğlu Endüstriyel. Tüm hakları saklıdır."
+  }
+}

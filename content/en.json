@@ -1,0 +1,186 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Osmanoğlu Endüstriyel",
+    "subtitle": "Precision CNC Machining Solutions in Gebze",
+    "description": "Leading manufacturer of high-precision metal parts using advanced CNC technology. Serving Gebze's industrial sector with excellence, quality, and reliability for over a decade.",
+    "cta": "Get Quote",
+    "cta2": "Our Services"
+  },
+  "about": {
+    "title": "About Osmanoğlu Endüstriyel",
+    "subtitle": "Your Trusted CNC Machining Partner in Gebze",
+    "description": "Osmanoğu Endüstri has been at the forefront of precision metal part manufacturing in Gebze's industrial zone. We specialize in CNC machining services, delivering high-quality components to various industries with unmatched precision and reliability.",
+    "stats": [
+      {
+        "number": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "1000+",
+        "label": "Parts Produced"
+      },
+      {
+        "number": "50+",
+        "label": "Active Clients"
+      },
+      {
+        "number": "99.8%",
+        "label": "Precision Rate"
+      }
+    ],
+    "features": [
+      {
+        "title": "Advanced CNC Technology",
+        "description": "State-of-the-art CNC machines ensuring micron-level precision for all metal parts."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Rigorous quality control processes with advanced measurement and testing equipment."
+      },
+      {
+        "title": "Fast Turnaround",
+        "description": "Efficient production processes ensuring quick delivery without compromising quality."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our CNC Services",
+    "subtitle": "Comprehensive Metal Part Manufacturing Solutions",
+    "items": [
+      {
+        "title": "CNC Milling",
+        "description": "High-precision milling operations for complex geometries and tight tolerances on various metals.",
+        "icon": "factory"
+      },
+      {
+        "title": "CNC Turning",
+        "description": "Precision turning services for cylindrical parts, shafts, and rotational components.",
+        "icon": "engineering"
+      },
+      {
+        "title": "Prototype Development",
+        "description": "Rapid prototyping services for product development and testing phases.",
+        "icon": "quality"
+      },
+      {
+        "title": "Series Production",
+        "description": "High-volume production runs with consistent quality and competitive pricing.",
+        "icon": "maintenance"
+      },
+      {
+        "title": "Custom Machining",
+        "description": "Specialized machining solutions tailored to your specific requirements and drawings.",
+        "icon": "support"
+      },
+      {
+        "title": "Quality Control",
+        "description": "Comprehensive inspection and measurement services ensuring part specifications.",
+        "icon": "training"
+      }
+    ]
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Precision Metal Parts for Various Industries",
+    "categories": [
+      {
+        "name": "Automotive Parts",
+        "items": [
+          {
+            "name": "Engine Components",
+            "description": "Precision-machined engine parts including pistons, connecting rods, and valve components."
+          },
+          {
+            "name": "Transmission Parts",
+            "description": "High-precision gears, shafts, and housing components for automotive transmissions."
+          },
+          {
+            "name": "Brake Components",
+            "description": "Critical brake system parts manufactured to strict safety and quality standards."
+          }
+        ]
+      },
+      {
+        "name": "Industrial Components",
+        "items": [
+          {
+            "name": "Machine Parts",
+            "description": "Custom machine components for industrial equipment and manufacturing systems."
+          },
+          {
+            "name": "Hydraulic Components",
+            "description": "Precision parts for hydraulic systems including cylinders, valves, and fittings."
+          },
+          {
+            "name": "Fasteners & Hardware",
+            "description": "Custom bolts, screws, and specialized fastening solutions."
+          }
+        ]
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Osmanoğlu Endüstriyel",
+    "subtitle": "Your Reliable CNC Machining Partner",
+    "reasons": [
+      {
+        "title": "Local Gebze Expertise",
+        "description": "Deep understanding of local industrial needs with quick response times and personalized service."
+      },
+      {
+        "title": "Precision Manufacturing",
+        "description": "Advanced CNC technology ensuring tolerances up to ±0.01mm for critical applications."
+      },
+      {
+        "title": "Material Expertise",
+        "description": "Extensive experience working with steel, aluminum, brass, and specialized alloys."
+      },
+      {
+        "title": "Competitive Pricing",
+        "description": "Cost-effective solutions without compromising on quality or delivery schedules."
+      },
+      {
+        "title": "Quick Turnaround",
+        "description": "Efficient production planning ensuring fast delivery for both prototypes and production runs."
+      },
+      {
+        "title": "Technical Support",
+        "description": "Expert engineering support from design optimization to final production."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Osmanoğlu Endüstriyel",
+    "subtitle": "Get in Touch for Your CNC Machining Needs",
+    "info": {
+      "address": "Gebze Organize Sanayi Bölgesi, Kocaeli, Turkey",
+      "phone": "+90 (262) XXX-XXXX",
+      "email": "info@osmanogluendustriyel.com",
+      "hours": "Monday - Friday: 08:00 - 18:00, Saturday: 08:00 - 13:00"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Osmanoğlu Endüstriyel - Leading CNC machining specialist in Gebze, providing precision metal parts manufacturing with advanced technology and expert craftsmanship.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 Osmanoğlu Endüstriyel. All rights reserved."
+  }
+}
