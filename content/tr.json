@@ -7,14 +7,14 @@
     "contact": "İletişim"
   },
   "hero": {
-    "title": "Osmanoğlu Endüstriyel",
+    "title": "Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Gebze'de Hassas CNC Tezgah Çözümleri",
     "description": "İleri CNC teknolojisi kullanarak yüksek hassasiyetli metal parça üretiminde öncü firma. On yılı aşkın süredir Gebze'nin endüstriyel sektörüne mükemmellik, kalite ve güvenilirlik ile hizmet veriyoruz.",
     "cta": "Teklif Al",
     "cta2": "Hizmetlerimiz"
   },
   "about": {
-    "title": "Osmanoğlu Endüstriyel Hakkında",
+    "title": "Osmanoğlu Endüstriyel Çözümler Hakkında",
     "subtitle": "Gebze'deki Güvenilir CNC Tezgah Ortağınız",
     "description": "Osmanoğu Endüstri, Gebze organize sanayi bölgesinde hassas metal parça üretiminin öncüsü konumundadır. CNC tezgah hizmetlerinde uzmanlaşarak, çeşitli endüstrilere eşsiz hassasiyet ve güvenilirlik ile yüksek kaliteli bileşenler sunuyoruz.",
     "stats": [
@@ -127,7 +127,7 @@
     ]
   },
   "whyChooseUs": {
-    "title": "Neden Osmanoğlu Endüstriyel",
+    "title": "Neden Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Güvenilir CNC Tezgah Ortağınız",
     "reasons": [
       {
@@ -157,11 +157,11 @@
     ]
   },
   "contact": {
-    "title": "Osmanoğlu Endüstriyel İletişim",
+    "title": "Osmanoğlu Endüstriyel Çözümler İletişim",
     "subtitle": "CNC Tezgah İhtiyaçlarınız İçin Bizimle İletişime Geçin",
     "info": {
-      "address": "Gebze Organize Sanayi Bölgesi, Kocaeli, Türkiye",
-      "phone": "+90 (262) XXX-XXXX",
+      "address": "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
+      "phone": "+90 544 320 03 37 - +90 535 712 16 69",
       "email": "info@osmanogluendustriyel.com",
       "hours": "Pazartesi - Cuma: 08:00 - 18:00, Cumartesi: 08:00 - 13:00"
     },
@@ -176,11 +176,11 @@
     }
   },
   "footer": {
-    "description": "Osmanoğlu Endüstriyel - Gebze'de önde gelen CNC tezgah uzmanı, ileri teknoloji ve uzman işçilik ile hassas metal parça üretimi sağlıyor.",
+    "description": "Osmanoğlu Endüstriyel Çözümler - Gebze'de önde gelen CNC tezgah uzmanı, ileri teknoloji ve uzman işçilik ile hassas metal parça üretimi sağlıyor.",
     "quickLinks": "Hızlı Bağlantılar",
     "services": "Hizmetler",
     "contact": "İletişim Bilgileri",
     "followUs": "Bizi Takip Edin",
-    "copyright": "© 2024 Osmanoğlu Endüstriyel. Tüm hakları saklıdır."
+    "copyright": "© 2025 Mustafa Ozkan. Tüm hakları saklıdır."
   }
 }
