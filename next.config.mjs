@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/osmanogluendustriyel.com',
-  assetPrefix: '/osmanogluendustriyel/',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
