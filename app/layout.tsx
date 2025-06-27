@@ -6,22 +6,22 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Osmanoğlu Endüstriyel - CNC Tezgah ve Metal Parça Üretimi | Gebze Kocaeli",
+  title: "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah ve Metal Parça Üretimi | Gebze Kocaeli",
   description:
     "Gebze'de CNC tezgah ile hassas metal parça üretimi. Otomotiv ve endüstriyel sektöre yüksek kaliteli CNC freze, torna hizmetleri. ISO sertifikalı kalite, hızlı teslimat.",
   keywords:
     "CNC tezgah Gebze, metal parça üretimi Kocaeli, CNC freze torna, hassas işleme, otomotiv parçaları, endüstriyel bileşenler, Osmanoğlu Endüstriyel",
-  authors: [{ name: "Osmanoğlu Endüstriyel" }],
-  creator: "Osmanoğlu Endüstriyel",
-  publisher: "Osmanoğlu Endüstriyel",
+  authors: [{ name: "Osmanoğlu Endüstriyel Çözümler" }],
+  creator: "Osmanoğlu Endüstriyel Çözümler",
+  publisher: "Osmanoğlu Endüstriyel Çözümler",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "tr_TR",
     alternateLocale: "en_US",
     url: "https://www.osmanogluendustriyel.com",
-    siteName: "Osmanoğlu Endüstriyel",
-    title: "Osmanoğlu Endüstriyel - CNC Tezgah ve Metal Parça Üretimi | Gebze",
+    siteName: "Osmanoğlu Endüstriyel Çözümler",
+    title: "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah ve Metal Parça Üretimi | Gebze",
     description:
       "Gebze'de CNC tezgah ile hassas metal parça üretimi. Otomotiv ve endüstriyel sektöre yüksek kaliteli hizmetler.",
     images: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: "/images/cnc-machine-1.png",
         width: 1200,
         height: 630,
-        alt: "Osmanoğlu Endüstriyel CNC Tezgah",
+        alt: "Osmanoğlu Endüstriyel Çözümler CNC Tezgah",
       },
     ],
   },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@osmanogluendustriyel",
     creator: "@osmanogluendustriyel",
-    title: "Osmanoğlu Endüstriyel - CNC Tezgah Gebze",
+    title: "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah Gebze",
     description: "Gebze'de hassas CNC tezgah ve metal parça üretimi hizmetleri",
     images: ["/images/cnc-machine-1.png"],
   },
@@ -50,21 +50,21 @@ export const metadata: Metadata = {
   other: {
     "geo.region": "TR-41",
     "geo.placename": "Gebze, Kocaeli",
-    "geo.position": "40.7982;29.4313",
-    ICBM: "40.7982, 29.4313",
-    "DC.title": "Osmanoğlu Endüstriyel - CNC Tezgah Gebze",
-    "DC.creator": "Osmanoğlu Endüstriyel",
+    "geo.position": "40.8040;29.4722",
+    ICBM: "40.8040, 29.4722",
+    "DC.title": "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah Gebze",
+    "DC.creator": "Osmanoğlu Endüstriyel Çözümler",
     "DC.subject": "CNC machining, metal parts manufacturing, precision engineering",
     "DC.description": "Professional CNC machining services in Gebze industrial zone",
-    "DC.publisher": "Osmanoğlu Endüstriyel",
-    "DC.contributor": "Osmanoğlu Endüstriyel",
-    "DC.date": "2024",
+    "DC.publisher": "Osmanoğlu Endüstriyel Çözümler",
+    "DC.contributor": "Osmanoğlu Endüstriyel Çözümler",
+    "DC.date": "2025",
     "DC.type": "Text",
     "DC.format": "text/html",
     "DC.identifier": "https://www.osmanogluendustriyel.com",
     "DC.language": "tr",
     "DC.coverage": "Gebze, Kocaeli, Turkey",
-    "DC.rights": "Copyright 2024 Osmanoğlu Endüstriyel",
+    "DC.rights": "Copyright 2025 Mustafa Özkan",
   },
     generator: 'v0.dev'
 }
@@ -83,7 +83,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#2563eb" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Osmanoğlu Endüstriyel" />
+        <meta name="apple-mobile-web-app-title" content="Osmanoğlu Endüstriyel Çözümler" />
 
         {/* Canonical URL */}
         <link rel="canonical" href="https://www.osmanogluendustriyel.com" />
@@ -111,23 +111,23 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "@id": "https://www.osmanogluendustriyel.com",
-              name: "Osmanoğlu Endüstriyel",
-              alternateName: "Osmanoğlu Endüstriyel CNC",
+              name: "Osmanoğlu Endüstriyel Çözümler",
+              alternateName: "Osmanoğlu Endüstriyel Çözümler CNC",
               description: "Gebze'de CNC tezgah ile hassas metal parça üretimi yapan endüstriyel firma",
               url: "https://www.osmanogluendustriyel.com",
-              telephone: "+90-262-XXX-XXXX",
+              telephone: "+90 544 320 03 37 - +90 535 712 16 69",
               email: "info@osmanogluendustriyel.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Gebze Organize Sanayi Bölgesi",
+                streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
                 addressLocality: "Gebze",
                 addressRegion: "Kocaeli",
                 addressCountry: "TR",
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: "40.7982",
-                longitude: "29.4313",
+                latitude: "40.8040",
+                longitude: "29.4722",
               },
               openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
               priceRange: "$$",
@@ -172,19 +172,19 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Osmanoğlu Endüstriyel",
+              name: "Osmanoğlu Endüstriyel Çözümler",
               url: "https://www.osmanogluendustriyel.com",
               logo: "https://www.osmanogluendustriyel.com/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+90-262-XXX-XXXX",
+                telephone: "+90 544 320 03 37 - +90 535 712 16 69",
                 contactType: "customer service",
                 availableLanguage: ["Turkish", "English"],
                 areaServed: "TR",
               },
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Gebze Organize Sanayi Bölgesi",
+                streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
                 addressLocality: "Gebze",
                 addressRegion: "Kocaeli",
                 addressCountry: "TR",
@@ -215,13 +215,13 @@ export default function RootLayout({
               url: "https://www.osmanogluendustriyel.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Gebze Organize Sanayi Bölgesi",
+                streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
                 addressLocality: "Gebze",
                 addressRegion: "Kocaeli",
                 postalCode: "41400",
                 addressCountry: "TR",
               },
-              telephone: "+90-262-XXX-XXXX",
+              telephone: "+90 544 320 03 37 - +90 535 712 16 69",
               email: "info@osmanogluendustriyel.com",
               makesOffer: [
                 {

@@ -7,14 +7,14 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Osmanoğlu Endüstriyel",
+    "title": "Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Precision CNC Machining Solutions in Gebze",
     "description": "Leading manufacturer of high-precision metal parts using advanced CNC technology. Serving Gebze's industrial sector with excellence, quality, and reliability for over a decade.",
     "cta": "Get Quote",
     "cta2": "Our Services"
   },
   "about": {
-    "title": "About Osmanoğlu Endüstriyel",
+    "title": "About Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Your Trusted CNC Machining Partner in Gebze",
     "description": "Osmanoğu Endüstri has been at the forefront of precision metal part manufacturing in Gebze's industrial zone. We specialize in CNC machining services, delivering high-quality components to various industries with unmatched precision and reliability.",
     "stats": [
@@ -127,7 +127,7 @@
     ]
   },
   "whyChooseUs": {
-    "title": "Why Choose Osmanoğlu Endüstriyel",
+    "title": "Why Choose Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Your Reliable CNC Machining Partner",
     "reasons": [
       {
@@ -157,11 +157,11 @@
     ]
   },
   "contact": {
-    "title": "Contact Osmanoğlu Endüstriyel",
+    "title": "Contact Osmanoğlu Endüstriyel Çözümler",
     "subtitle": "Get in Touch for Your CNC Machining Needs",
     "info": {
-      "address": "Gebze Organize Sanayi Bölgesi, Kocaeli, Turkey",
-      "phone": "+90 (262) XXX-XXXX",
+      "address": "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
+      "phone": "+90 544 320 03 37 - +90 535 712 16 69",
       "email": "info@osmanogluendustriyel.com",
       "hours": "Monday - Friday: 08:00 - 18:00, Saturday: 08:00 - 13:00"
     },
@@ -176,11 +176,11 @@
     }
   },
   "footer": {
-    "description": "Osmanoğlu Endüstriyel - Leading CNC machining specialist in Gebze, providing precision metal parts manufacturing with advanced technology and expert craftsmanship.",
+    "description": "Osmanoğlu Endüstriyel Çözümler - Leading CNC machining specialist in Gebze, providing precision metal parts manufacturing with advanced technology and expert craftsmanship.",
     "quickLinks": "Quick Links",
     "services": "Services",
     "contact": "Contact Info",
     "followUs": "Follow Us",
-    "copyright": "© 2024 Osmanoğlu Endüstriyel. All rights reserved."
+    "copyright": "© 2025 Mustafa Ozkan. All rights reserved."
   }
 }

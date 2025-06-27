@@ -90,7 +90,7 @@ export interface Content {
 }
 
 export function useContent() {
-  const [language, setLanguage] = useState<Language>("en")
+  const [language, setLanguage] = useState<Language>("tr")
   const [content, setContent] = useState<Content | null>(null)
   const [loading, setLoading] = useState(true)
 
