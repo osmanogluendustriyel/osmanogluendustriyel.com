@@ -20,13 +20,14 @@ export function SEOHead({
 
   const defaultTitle =
     language === "tr"
-      ? "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah ve Metal Parça Üretimi | Gebze"
-      : "Osmanoğlu Endüstriyel Çözümler - CNC Machining and Metal Parts Manufacturing | Gebze"
+      ? "CNC Tezgah & Metal Parça Üretimi | Gebze Kocaeli | Osmanoğlu Endüstriyel"
+      : "CNC Machining & Metal Parts Manufacturing | Gebze Kocaeli | Osmanoglu Industrial"
 
   const defaultDescription =
     language === "tr"
-      ? "Gebze'de CNC tezgah ile hassas metal parça üretimi. Otomotiv ve endüstriyel sektöre yüksek kaliteli CNC freze, torna hizmetleri."
-      : "Precision CNC machining and metal parts manufacturing in Gebze. High-quality CNC milling and turning services for automotive and industrial sectors."
+      ? "Gebze Kocaeli'de CNC freze ve torna ile hassas metal parça üretimi. Endüstriyel çözümler ve otomotiv sektörü için CNC işleme hizmetleri."
+      : "CNC milling and turning for precision parts in Gebze, Kocaeli. Manufacturing solutions for industrial and automotive sectors."
+
 
   const title = pageTitle || defaultTitle
   const description = pageDescription || defaultDescription
@@ -41,8 +42,8 @@ export function SEOHead({
         name="keywords"
         content={
           language === "tr"
-            ? "CNC tezgah Gebze, metal parça üretimi, CNC freze, CNC torna, hassas işleme, otomotiv parçaları, endüstriyel bileşenler, Kocaeli, Osmanoğlu Endüstriyel Çözümler"
-            : "CNC machining Gebze, metal parts manufacturing, CNC milling, CNC turning, precision machining, automotive parts, industrial components, Kocaeli"
+            ? "CNC tezgah, Gebze CNC, Kocaeli CNC işleme, metal parça üretimi, CNC freze hizmeti, CNC torna, sanayi parça üretimi, hassas işleme, endüstriyel üretim, otomotiv sanayi parçaları"
+            : "CNC machining, CNC milling, CNC turning, precision parts, metal parts manufacturing, Gebze Kocaeli, automotive components, industrial solutions"
         }
       />
 
