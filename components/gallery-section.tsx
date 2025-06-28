@@ -13,29 +13,44 @@ export function GallerySection({ content }: GallerySectionProps) {
 
   const galleryImages = [
     {
-      src: "/images/cnc-machine-1.png",
-      alt: "CNC Machine Operation",
-      title: "Advanced CNC Machining",
+      src: "/images/gallery-1.png",
+      alt: "CNC Freze Makinesi",
+      title: "CNC Freze İşlemleri",
     },
     {
-      src: "/images/cnc-machine-2.png",
-      alt: "Precision Manufacturing",
-      title: "Precision Manufacturing",
+      src: "/images/gallery-2.png",
+      alt: "CNC Torna Makinesi",
+      title: "CNC Torna Hizmetleri",
     },
     {
-      src: "/images/metal-parts.png",
-      alt: "Quality Metal Parts",
-      title: "Quality Metal Parts",
+      src: "/images/gallery-3.png",
+      alt: "CNC İşleme Merkezi",
+      title: "İleri CNC Teknolojisi",
     },
     {
-      src: "/images/precision-parts.png",
-      alt: "Precision Components",
-      title: "Precision Components",
+      src: "/images/gallery-4.png",
+      alt: "Hassas Metal Parça",
+      title: "Hassas Metal Parçalar",
     },
     {
-      src: "/images/factory-floor.png",
-      alt: "Factory Floor",
-      title: "Modern Production Facility",
+      src: "/images/gallery-5.png",
+      alt: "Özel Üretim Parça",
+      title: "Özel Üretim Çözümleri",
+    },
+    {
+      src: "/images/gallery-6.png",
+      alt: "Kalıp ve Aparat",
+      title: "Kalıp ve Aparat Üretimi",
+    },
+    {
+      src: "/images/gallery-7.png",
+      alt: "Seri Üretim",
+      title: "Seri Üretim Kapasitesi",
+    },
+    {
+      src: "/images/gallery-8.png",
+      alt: "Hassas Flanş Üretimi",
+      title: "Hassas Flanş ve Bağlantı Parçaları",
     },
   ]
 
@@ -44,8 +59,8 @@ export function GallerySection({ content }: GallerySectionProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Facility & Work</h2>
-          <p className="text-xl text-blue-600 font-semibold">See Our CNC Machining Capabilities</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tesisimiz ve Çalışmalarımız</h2>
+          <p className="text-xl text-blue-600 font-semibold">CNC Tezgah Yeteneklerimizi Görün</p>
         </div>
 
         {/* Gallery Grid */}
@@ -71,7 +86,7 @@ export function GallerySection({ content }: GallerySectionProps) {
           ))}
         </div>
 
-        {/* Lightbox Modal */}
+        {/* Simple Lightbox Modal */}
         {selectedImage && (
           <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             <div className="relative max-w-4xl max-h-full">

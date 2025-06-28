@@ -37,11 +37,7 @@ export function ProductsSection({ content }: ProductsSectionProps) {
                     className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
                   >
                     <div className="relative h-48">
-                      <img
-                        src="/images/precision-parts.png"
-                        alt={product.name}
-                        className="w-full h-full object-cover"
-                      />
+                      <img src={`/images/products-${productIndex + 1}.png`} alt={product.name} className="w-full h-full object-cover" />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                     </div>
                     <CardHeader>

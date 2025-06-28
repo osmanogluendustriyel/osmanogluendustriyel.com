@@ -20,8 +20,8 @@ export function SEOHead({
 
   const defaultTitle =
     language === "tr"
-      ? "Osmanoğlu Endüstriyel - CNC Tezgah ve Metal Parça Üretimi | Gebze"
-      : "Osmanoğlu Endüstriyel - CNC Machining and Metal Parts Manufacturing | Gebze"
+      ? "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah ve Metal Parça Üretimi | Gebze"
+      : "Osmanoğlu Endüstriyel Çözümler - CNC Machining and Metal Parts Manufacturing | Gebze"
 
   const defaultDescription =
     language === "tr"
@@ -41,7 +41,7 @@ export function SEOHead({
         name="keywords"
         content={
           language === "tr"
-            ? "CNC tezgah Gebze, metal parça üretimi, CNC freze, CNC torna, hassas işleme, otomotiv parçaları, endüstriyel bileşenler, Kocaeli, Osmanoğlu Endüstriyel"
+            ? "CNC tezgah Gebze, metal parça üretimi, CNC freze, CNC torna, hassas işleme, otomotiv parçaları, endüstriyel bileşenler, Kocaeli, Osmanoğlu Endüstriyel Çözümler"
             : "CNC machining Gebze, metal parts manufacturing, CNC milling, CNC turning, precision machining, automotive parts, industrial components, Kocaeli"
         }
       />
@@ -51,17 +51,17 @@ export function SEOHead({
       <meta name="language" content={language === "tr" ? "Turkish" : "English"} />
       <meta name="geo.region" content="TR-41" />
       <meta name="geo.placename" content="Gebze, Kocaeli" />
-      <meta name="geo.position" content="40.7982;29.4313" />
-      <meta name="ICBM" content="40.7982, 29.4313" />
+      <meta name="geo.position" content="40.8040;29.4722" />
+      <meta name="ICBM" content="40.8040, 29.4722" />
 
       {/* Business Information */}
-      <meta name="author" content="Osmanoğlu Endüstriyel" />
-      <meta name="publisher" content="Osmanoğlu Endüstriyel" />
-      <meta name="copyright" content="© 2024 Osmanoğlu Endüstriyel" />
-      <meta name="company" content="Osmanoğlu Endüstriyel" />
+      <meta name="author" content="Osmanoğlu Endüstriyel Çözümler" />
+      <meta name="publisher" content="Osmanoğlu Endüstriyel Çözümler" />
+      <meta name="copyright" content="© 2025 Mustafa Özkan" />
+      <meta name="company" content="Osmanoğlu Endüstriyel Çözümler" />
       <meta name="contact" content="info@osmanogluendustriyel.com" />
-      <meta name="phone" content="+90-262-XXX-XXXX" />
-      <meta name="address" content="Gebze Organize Sanayi Bölgesi, Kocaeli, Turkey" />
+      <meta name="phone" content="+90 544 320 03 37 - +90 535 712 16 69" />
+      <meta name="address" content="Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli" />
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />
@@ -71,8 +71,8 @@ export function SEOHead({
       <meta property="og:image" content={`${canonicalUrl}/images/cnc-machine-1.png`} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Osmanoğlu Endüstriyel CNC Machining" />
-      <meta property="og:site_name" content="Osmanoğlu Endüstriyel" />
+      <meta property="og:image:alt" content="Osmanoğlu Endüstriyel Çözümler CNC Machining" />
+      <meta property="og:site_name" content="Osmanoğlu Endüstriyel Çözümler" />
       <meta property="og:locale" content={language === "tr" ? "tr_TR" : "en_US"} />
 
       {/* Twitter */}

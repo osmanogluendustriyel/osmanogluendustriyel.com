@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, Factory } from "lucide-react"
+import { Menu } from "lucide-react"
 import { LanguageSwitcher } from "./language-switcher"
 import type { Content, Language } from "@/hooks/use-content"
 
@@ -37,9 +37,8 @@ export function Navigation({ content, language, onLanguageChange }: NavigationPr
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Factory className="w-8 h-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Osmanoğlu Endüstriyel</span>
+          <div className="flex items-center gap-3">
+            <img src="/images/logo.png" alt="Osmanoğlu Endüstriyel Çözümler" className="h-10 object-contain" />
           </div>
 
           {/* Desktop Navigation */}

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "Gebze'de CNC tezgah ile hassas metal parça üretimi. Otomotiv ve endüstriyel sektöre yüksek kaliteli hizmetler.",
     images: [
       {
-        url: "/images/cnc-machine-1.png",
+        url: "/images/gallery-1.png",
         width: 1200,
         height: 630,
         alt: "Osmanoğlu Endüstriyel Çözümler CNC Tezgah",
@@ -39,11 +39,10 @@ export const metadata: Metadata = {
     creator: "@osmanogluendustriyel",
     title: "Osmanoğlu Endüstriyel Çözümler - CNC Tezgah Gebze",
     description: "Gebze'de hassas CNC tezgah ve metal parça üretimi hizmetleri",
-    images: ["/images/cnc-machine-1.png"],
+    images: ["/images/gallery-1.png"],
   },
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
+    google: "google-site-verification=EAP60kNAhQoBKIv2cCDAQsUD6BETB8RdBVpR8AJdwuI",
   },
   category: "Manufacturing",
   classification: "Business",
@@ -94,10 +93,11 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="x-default" href="https://www.osmanogluendustriyel.com" />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon.ico" />
 
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -132,8 +132,8 @@ export default function RootLayout({
               openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
               priceRange: "$$",
               image: [
-                "https://www.osmanogluendustriyel.com/images/cnc-machine-1.png",
-                "https://www.osmanogluendustriyel.com/images/cnc-machine-2.png",
+                "https://www.osmanogluendustriyel.com/images/gallery-1.png",
+                "https://www.osmanogluendustriyel.com/images/gallery-2.png",
               ],
               sameAs: [
                 "https://www.facebook.com/osmanogluendustriyel",
@@ -174,7 +174,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Osmanoğlu Endüstriyel Çözümler",
               url: "https://www.osmanogluendustriyel.com",
-              logo: "https://www.osmanogluendustriyel.com/logo.png",
+              logo: "https://www.osmanogluendustriyel.com/images/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+90 544 320 03 37 - +90 535 712 16 69",

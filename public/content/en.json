@@ -161,7 +161,8 @@
     "subtitle": "Get in Touch for Your CNC Machining Needs",
     "info": {
       "address": "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
-      "phone": "+90 544 320 03 37 - +90 535 712 16 69",
+      "phone1": "+90 544 320 03 37",
+      "phone2": "+90 535 712 16 69",
       "email": "info@osmanogluendustriyel.com",
       "hours": "Monday - Friday: 08:00 - 18:00, Saturday: 08:00 - 13:00"
     },

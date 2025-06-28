@@ -21,23 +21,31 @@ export function AboutSection({ content }: AboutSectionProps) {
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">{content.about.description}</p>
         </div>
 
-        {/* Add image showcase */}
+        {/* Machine Photos Showcase */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <div className="relative">
+          <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src="/images/cnc-machine-2.png"
-              alt="CNC Machine in operation"
-              className="rounded-lg shadow-lg w-full h-64 object-cover"
+              src="/images/gallery-1.png"
+              alt="CNC Freze Makinesi - Hassas Metal İşleme"
+              className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-blue-600/10 rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+            <div className="absolute bottom-6 left-6 text-white">
+              <h3 className="text-xl font-bold mb-2">CNC Freze Makinesi</h3>
+              <p className="text-sm opacity-90">Yüksek hassasiyetli metal parça üretimi</p>
+            </div>
           </div>
-          <div className="relative">
+          <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src="/images/metal-parts.png"
-              alt="Precision metal parts"
-              className="rounded-lg shadow-lg w-full h-64 object-cover"
+              src="/images/gallery-3.png"
+              alt="CNC Torna Makinesi - Silindirik Parça Üretimi"
+              className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-blue-600/10 rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+            <div className="absolute bottom-6 left-6 text-white">
+              <h3 className="text-xl font-bold mb-2">CNC Torna Makinesi</h3>
+              <p className="text-sm opacity-90">Silindirik ve döner parça üretimi</p>
+            </div>
           </div>
         </div>
 

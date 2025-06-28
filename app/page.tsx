@@ -11,6 +11,7 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { GallerySection } from "@/components/gallery-section"
 import { SEOHead } from "@/components/seo-head"
+import { FloatingWhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   const { content, language, switchLanguage, loading } = useContent()
@@ -36,6 +37,11 @@ export default function Home() {
         <WhyChooseUsSection content={content} />
         <ContactSection content={content} />
         <Footer content={content} />
+        {/* Floating WhatsApp Button */}
+        <FloatingWhatsAppButton
+          phoneNumber="+905443200337"
+          message="Merhaba, CNC tezgah hizmetleriniz hakkında bilgi almak istiyorum."
+        />
       </main>
     </>
   )

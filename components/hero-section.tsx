@@ -30,9 +30,9 @@ export function HeroSection({ content }: HeroSectionProps) {
     >
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
-          backgroundImage: "url('/images/cnc-machine-1.png')",
+          backgroundImage: "url('/images/hero-bg.png')",
         }}
       ></div>
 

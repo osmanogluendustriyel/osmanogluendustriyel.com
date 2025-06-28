@@ -1,6 +1,6 @@
 "use client"
 
-import { Factory, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
 import type { Content } from "@/hooks/use-content"
 
 interface FooterProps {
@@ -21,9 +21,8 @@ export function Footer({ content }: FooterProps) {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <Factory className="w-8 h-8 text-blue-400" />
-              <span className="text-2xl font-bold">Osmanoğlu Endüstriyel</span>
+            <div className="flex items-center gap-3 mb-6">
+              <img src="/images/logo.png" alt="Osmanoğlu Endüstriyel Çözümler" className="h-10 object-contain" />
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">{content.footer.description}</p>
             <div className="flex gap-4">
