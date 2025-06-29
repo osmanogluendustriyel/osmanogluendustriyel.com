@@ -91,36 +91,19 @@
     "subtitle": "Çeşitli Endüstriler İçin Hassas Metal Parçalar",
     "categories": [
       {
-        "name": "Otomotiv Parçaları",
-        "items": [
-          {
-            "name": "Motor Bileşenleri",
-            "description": "Pistonlar, biyel kolları ve valf bileşenleri dahil hassas işlenmiş motor parçaları."
-          },
-          {
-            "name": "Şanzıman Parçaları",
-            "description": "Otomotiv şanzımanları için yüksek hassasiyetli dişliler, şaftlar ve gövde bileşenleri."
-          },
-          {
-            "name": "Fren Bileşenleri",
-            "description": "Sıkı güvenlik ve kalite standartlarına göre üretilen kritik fren sistemi parçaları."
-          }
-        ]
-      },
-      {
-        "name": "Endüstriyel Bileşenler",
+        "name": "Hassas Metal Parçalar",
         "items": [
           {
             "name": "Makine Parçaları",
             "description": "Endüstriyel ekipman ve üretim sistemleri için özel makine bileşenleri."
           },
           {
-            "name": "Hidrolik Bileşenler",
-            "description": "Silindirler, valfler ve bağlantı parçaları dahil hidrolik sistemler için hassas parçalar."
+            "name": "Endüstriyel Öğütücü",
+            "description": "Metal, plastik ve endüstriyel atıkların parçalanması için yüksek torklu, dayanıklı öğütücü sistemi."
           },
           {
-            "name": "Bağlantı Elemanları",
-            "description": "Özel cıvatalar, vidalar ve özelleştirilmiş bağlantı çözümleri."
+            "name": "Özel Parça İşleme Fikstürü",
+            "description": "Karmaşık parçaların hassas, güvenli ve seri üretiminde kullanılan pnömatik kontrollü işleme fikstürü."
           }
         ]
       }
@@ -131,8 +114,8 @@
     "subtitle": "Güvenilir CNC Tezgah Ortağınız",
     "reasons": [
       {
-        "title": "Yerel Gebze Uzmanlığı",
-        "description": "Hızlı yanıt süreleri ve kişiselleştirilmiş hizmet ile yerel endüstriyel ihtiyaçların derinlemesine anlaşılması."
+        "title": "Müşteriye Özel Üretim Yaklaşımı",
+        "description": "Farklı sektörlerin özel gereksinimlerine uygun çözümler sunan esnek ve ihtiyaç odaklı üretim stratejisi."
       },
       {
         "title": "Hassas Üretim",

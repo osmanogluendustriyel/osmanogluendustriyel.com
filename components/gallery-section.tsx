@@ -13,19 +13,19 @@ export function GallerySection({ content }: GallerySectionProps) {
 
   const galleryImages = [
     {
-      src: "/images/gallery-1.png",
-      alt: "CNC Freze Makinesi",
-      title: "CNC Freze İşlemleri",
+      src: "/images/gallery-11.png",
+      alt: "Alüminyum Bağlantı Bloğu",
+      title: "Hidrolik sistemlerde akış yönlendirme için işlenmiş hassas bağlantı parçaları",
     },
     {
-      src: "/images/gallery-2.png",
-      alt: "CNC Torna Makinesi",
-      title: "CNC Torna Hizmetleri",
+      src: "/images/gallery-17.png",
+      alt: "Aşınma Dayanımlı Kılavuz",
+      title: "Sürtünmeye ve Darbelere Dayanıklı Yönlendirme Elemanları",
     },
     {
-      src: "/images/gallery-3.png",
-      alt: "CNC İşleme Merkezi",
-      title: "İleri CNC Teknolojisi",
+      src: "/images/gallery-18.png",
+      alt: "Maskeleme Kalıpları",
+      title: "Maskeleme Kalıpları",
     },
     {
       src: "/images/gallery-4.png",
@@ -33,9 +33,9 @@ export function GallerySection({ content }: GallerySectionProps) {
       title: "Hassas Metal Parçalar",
     },
     {
-      src: "/images/gallery-5.png",
-      alt: "Özel Üretim Parça",
-      title: "Özel Üretim Çözümleri",
+      src: "/images/gallery-10.png",
+      alt: "Silindirik Parça Destek Kılavuzu",
+      title: "Sabitleme için Yüksek Yoğunluklu Plastik Parçalar",
     },
     {
       src: "/images/gallery-6.png",
@@ -51,6 +51,11 @@ export function GallerySection({ content }: GallerySectionProps) {
       src: "/images/gallery-8.png",
       alt: "Hassas Flanş Üretimi",
       title: "Hassas Flanş ve Bağlantı Parçaları",
+    },
+    {
+      src: "/images/gallery-16.png",
+      alt: "Paslanmaz Çelik Flanş",
+      title: "Boru sistemleri için işlenmiş sızdırmaz flanş.",
     },
   ]
 

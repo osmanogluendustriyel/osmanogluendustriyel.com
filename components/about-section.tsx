@@ -31,8 +31,8 @@ export function AboutSection({ content }: AboutSectionProps) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
-              <h3 className="text-xl font-bold mb-2">CNC Freze Makinesi</h3>
-              <p className="text-sm opacity-90">Yüksek hassasiyetli metal parça üretimi</p>
+              <h3 className="text-xl font-bold mb-2">CNC Dik İşleme Merkezi</h3>
+              <p className="text-sm opacity-90">Kompleks ve hassas metal parçaların yüksek doğrulukla işlenmesi</p>
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-lg">
@@ -43,8 +43,8 @@ export function AboutSection({ content }: AboutSectionProps) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
-              <h3 className="text-xl font-bold mb-2">CNC Torna Makinesi</h3>
-              <p className="text-sm opacity-90">Silindirik ve döner parça üretimi</p>
+              <h3 className="text-xl font-bold mb-2">CNC Dik İşleme Merkezi (Divizörlü)</h3>
+              <p className="text-sm opacity-90">Otomotiv, kalıp ve savunma sanayi için yüksek verimli talaş kaldırma çözümleri</p>
             </div>
           </div>
         </div>

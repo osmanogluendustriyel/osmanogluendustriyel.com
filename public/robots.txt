@@ -2,10 +2,19 @@ User-agent: *
 Allow: /
 Disallow: /private/
 Disallow: /admin/
+Disallow: /api/
 
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
 
 Sitemap: https://www.osmanogluendustriyel.com/sitemap.xml
 Host: https://www.osmanogluendustriyel.com
