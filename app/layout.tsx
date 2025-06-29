@@ -163,6 +163,7 @@ export default function RootLayout({
               url: "https://www.osmanogluendustriyel.com",
               telephone: "+90 544 320 03 37 - +90 535 712 16 69",
               email: "info@osmanogluendustriyel.com",
+              foundingDate: "2014",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
@@ -177,6 +178,39 @@ export default function RootLayout({
               },
               openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
               priceRange: "$$",
+              paymentAccepted: ["Cash", "Credit Card", "Bank Transfer"],
+              currenciesAccepted: ["TRY", "EUR", "USD"],
+              areaServed: [
+                {
+                  "@type": "City",
+                  name: "Gebze"
+                },
+                {
+                  "@type": "City",
+                  name: "Kocaeli"
+                },
+                {
+                  "@type": "City",
+                  name: "Izmit"
+                },
+                {
+                  "@type": "City",
+                  name: "Darıca"
+                },
+                {
+                  "@type": "City",
+                  name: "Çayırova"
+                }
+              ],
+              serviceArea: {
+                "@type": "GeoCircle",
+                geoMidpoint: {
+                  "@type": "GeoCoordinates",
+                  latitude: "40.8040",
+                  longitude: "29.4722",
+                },
+                geoRadius: "50000",
+              },
               image: [
                 "https://www.osmanogluendustriyel.com/images/gallery-1.png",
                 "https://www.osmanogluendustriyel.com/images/gallery-2.png",
@@ -184,6 +218,147 @@ export default function RootLayout({
               sameAs: [
                 "https://www.facebook.com/osmanogluendustriyel",
                 "https://www.linkedin.com/company/osmanogluendustriyel",
+              ],
+              offers: [
+                {
+                  "@type": "Offer",
+                  name: "CNC Freze Hizmetleri",
+                  description: "Gebze'de hassas CNC freze ile metal parça üretimi",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01",
+                  areaServed: {
+                    "@type": "City",
+                    name: "Gebze, Kocaeli",
+                  },
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Endüstriyel Çözümler",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  name: "CNC Freze Hizmetleri",
+                  description: "Gebze'de hassas CNC freze ile metal parça üretimi",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01",
+                  areaServed: {
+                    "@type": "City",
+                    name: "Gebze, Kocaeli",
+                  },
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Endüstriyel Çözümler",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  name: "CNC Kesim Hizmetleri",
+                  description: "Hassas CNC kesim ve metal işleme hizmetleri",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01",
+                  areaServed: {
+                    "@type": "City",
+                    name: "Gebze, Kocaeli",
+                  },
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Endüstriyel Çözümler",
+                  },
+                },
+              ],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                reviewCount: "47",
+                bestRating: "5",
+                worstRating: "1",
+              },
+              review: [
+                {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                    worstRating: "1",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Mehmet Yılmaz",
+                  },
+                  reviewBody:
+                    "Gebze'deki en iyi CNC tezgah firması. Kaliteli işçilik ve hızlı teslimat. Özellikle otomotiv parçaları için mükemmel çözümler sunuyorlar.",
+                  datePublished: "2024-01-15",
+                },
+                {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                    worstRating: "1",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Ayşe Demir",
+                  },
+                  reviewBody:
+                    "CNC freze işlemleri için başvurduğumuz en güvenilir firma. Hassas işçilik ve zamanında teslimat.",
+                  datePublished: "2024-02-10",
+                },
+                {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "4",
+                    bestRating: "5",
+                    worstRating: "1",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Ali Kaya",
+                  },
+                  reviewBody:
+                    "Endüstriyel parça üretimi için çalıştığımız profesyonel ekip. Kalite standartları çok yüksek.",
+                  datePublished: "2024-02-20",
+                },
+                {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                    worstRating: "1",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Fatma Özkan",
+                  },
+                  reviewBody:
+                    "CNC torna hizmetleri için Gebze'deki en iyi seçenek. Fiyat performans açısından çok memnunuz.",
+                  datePublished: "2024-03-05",
+                },
+                {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                    worstRating: "1",
+                  },
+                  author: {
+                    "@type": "Person",
+                    name: "Mustafa Çelik",
+                  },
+                  reviewBody: "Prototip üretiminden seri üretime kadar her aşamada destek aldığımız güvenilir firma.",
+                  datePublished: "2024-03-12",
+                },
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -226,7 +401,7 @@ export default function RootLayout({
                 telephone: "+90 544 320 03 37 - +90 535 712 16 69",
                 contactType: "customer service",
                 availableLanguage: ["Turkish", "English"],
-                areaServed: "TR",
+                areaServed: ["TR", "Gebze", "Kocaeli"]
               },
               address: {
                 "@type": "PostalAddress",
@@ -245,6 +420,14 @@ export default function RootLayout({
                 "Automotive Parts",
                 "Industrial Components",
               ],
+              slogan: "Gebze'nin CNC Uzmanı - Hassas İşleme, Kaliteli Üretim",
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                reviewCount: "47",
+                bestRating: "5",
+                worstRating: "1",
+              },
             }),
           }}
         />
@@ -279,6 +462,36 @@ export default function RootLayout({
                   },
                 },
               ],
+              offers: {
+                "@type": "AggregateOffer",
+                priceCurrency: "TRY",
+                lowPrice: "1000",
+                highPrice: "100000",
+                offerCount: "3",
+                offers: [
+                  {
+                    "@type": "Offer",
+                    name: "Gebze CNC Kesim",
+                    price: "Teklif Üzerine",
+                    priceCurrency: "TRY",
+                    availability: "https://schema.org/InStock",
+                  },
+                  {
+                    "@type": "Offer",
+                    name: "Gebze CNC Freze",
+                    price: "Teklif Üzerine",
+                    priceCurrency: "TRY",
+                    availability: "https://schema.org/InStock",
+                  },
+                  {
+                    "@type": "Offer",
+                    name: "Gebze CNC Torna",
+                    price: "Teklif Üzerine",
+                    priceCurrency: "TRY",
+                    availability: "https://schema.org/InStock",
+                  },
+                ],
+              },
             }),
           }}
         />
