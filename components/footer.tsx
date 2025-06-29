@@ -25,7 +25,7 @@ export function Footer({ content }: FooterProps) {
               <img src="/images/logo.png" alt="Osmanoğlu Endüstriyel Çözümler" className="h-10 object-contain" />
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">{content.footer.description}</p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <a
                 href="#"
                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
@@ -50,7 +50,7 @@ export function Footer({ content }: FooterProps) {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -97,7 +97,8 @@ export function Footer({ content }: FooterProps) {
             <h3 className="text-lg font-semibold mb-6">{content.footer.contact}</h3>
             <div className="space-y-3 text-gray-300">
               <p className="text-sm leading-relaxed">{content.contact.info.address}</p>
-              <p className="text-sm">{content.contact.info.phone}</p>
+              <p className="text-sm">{content.contact.info.phone1}</p>
+              <p className="text-sm">{content.contact.info.phone2}</p>
               <p className="text-sm">{content.contact.info.email}</p>
             </div>
           </div>
