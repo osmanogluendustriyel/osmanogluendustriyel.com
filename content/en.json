@@ -91,36 +91,19 @@
     "subtitle": "Precision Metal Parts for Various Industries",
     "categories": [
       {
-        "name": "Automotive Parts",
+        "name": "Precision Metal Parts",
         "items": [
           {
-            "name": "Engine Components",
-            "description": "Precision-machined engine parts including pistons, connecting rods, and valve components."
-          },
-          {
-            "name": "Transmission Parts",
-            "description": "High-precision gears, shafts, and housing components for automotive transmissions."
-          },
-          {
-            "name": "Brake Components",
-            "description": "Critical brake system parts manufactured to strict safety and quality standards."
-          }
-        ]
-      },
-      {
-        "name": "Industrial Components",
-        "items": [
-          {
-            "name": "Machine Parts",
+            "name": "Machine Components",
             "description": "Custom machine components for industrial equipment and manufacturing systems."
           },
           {
-            "name": "Hydraulic Components",
-            "description": "Precision parts for hydraulic systems including cylinders, valves, and fittings."
+            "name": "Industrial Shredder",
+            "description": "Heavy-duty shredder for metal, plastic, and industrial waste processing."
           },
           {
-            "name": "Fasteners & Hardware",
-            "description": "Custom bolts, screws, and specialized fastening solutions."
+            "name": "Custom Part Machining Fixture",
+            "description": "Precision fixture for secure machining of complex parts."
           }
         ]
       }
@@ -131,8 +114,8 @@
     "subtitle": "Your Reliable CNC Machining Partner",
     "reasons": [
       {
-        "title": "Local Gebze Expertise",
-        "description": "Deep understanding of local industrial needs with quick response times and personalized service."
+        "title": "Tailored Manufacturing",
+        "description": "Flexible production tailored to diverse industry needs."
       },
       {
         "title": "Precision Manufacturing",
