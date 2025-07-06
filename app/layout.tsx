@@ -11,16 +11,16 @@ export const metadata: Metadata = {
     "Gebze'nin #1 CNC tezgah uzmanı! CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi, otomotiv parçaları, endüstriyel bileşenler. ✓ Hızlı teslimat ✓ Uygun fiyat ✓ Kaliteli işçilik",
   keywords: [
     // Primary Keywords
-    "Gebze CNC",
-    "Gebze CNC kesim",
-    "CNC tezgah Gebze",
-    "Gebze makine parça üretimi",
-    "CNC freze Gebze",
-    "CNC torna Gebze",
+    "Gebze Talaşlı İmalat",
+    "Gebze Kaynak Kalıp İmalatı",
+    "Gebze Torna",
+    "Kaynak Kalıp İmalatı Gebze",
+    "Talaşlı İmalat Gebze",
+    "Talaşlo İmalat Torna",
     
     // Secondary Keywords
-    "Gebze CNC işleme",
-    "Kocaeli CNC tezgah",
+    "Gebze CNC",
+    "Gebze CNC kesim",
     "Gebze metal parça",
     "CNC kesim hizmetleri Gebze",
     "Gebze hassas işleme",
