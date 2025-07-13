@@ -6,9 +6,9 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Gebze CNC Tezgah | Osmanoğlu Endüstriyel Çözümler - CNC Kesim ve Metal Parça Üretimi",
+  title: "Gebze CNC | Osmanoğlu Endüstriyel - CNC Kesim, Talaşlı İmalat",
   description:
-    "Gebze'nin #1 CNC tezgah uzmanı! CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi, otomotiv parçaları, endüstriyel bileşenler. ✓ Hızlı teslimat ✓ Uygun fiyat ✓ Kaliteli işçilik",
+    "Gebze CNC tezgah uzmanı! CNC kesim, Talaşı imalat hizmetleri. Hassas metal parça üretimi. ✓10+ yıl deneyim ✓Hızlı teslimat ✓Uygun fiyat",
   keywords: [
     // Primary Keywords
     "Gebze Talaşlı İmalat",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "Gebze endüstriyel parça üretimi",
 
     // Location-based
-    "Gebze OSB CNC",
+    "Gebze OSB",
     "Kocaeli CNC kesim",
     "İzmit CNC tezgah",
     "Darıca CNC işleme",
@@ -50,18 +50,25 @@ export const metadata: Metadata = {
   creator: "Osmanoğlu Endüstriyel Çözümler",
   publisher: "Osmanoğlu Endüstriyel Çözümler",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  alternates: {
+    canonical: "https://www.osmanogluendustriyel.com",
+    languages: {
+      tr: "https://www.osmanogluendustriyel.com",
+      en: "https://www.osmanogluendustriyel.com"
+    }
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
     alternateLocale: "en_US",
     url: "https://www.osmanogluendustriyel.com",
     siteName: "Osmanoğlu Endüstriyel Çözümler - Gebze CNC Uzmanı",
-    title: "Gebze CNC Tezgah | #1 CNC Kesim ve Metal Parça Üretimi",
+    title: "Gebze CNC | Osmanoğlu Endüstriyel - CNC Kesim, Talaşlı İmalat",
     description:
-      "Gebze'nin lider CNC tezgah firması! Hassas CNC kesim, freze, torna hizmetleri. 10+ yıl deneyim, hızlı teslimat, uygun fiyat. Hemen teklif alın!",
+      "Gebze CNC tezgah uzmanı! Hassas CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi. 10+ yıl deneyim, hızlı teslimat.",
     images: [
       {
-        url: "/images/gallery-1.png",
+        url: "https://www.osmanogluendustriyel.com/images/gallery-1.png",
         width: 1200,
         height: 630,
         alt: "Gebze CNC Tezgah - Osmanoğlu Endüstriyel Çözümler CNC Tezgah",
@@ -116,6 +123,11 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Osmanoğlu Endüstriyel Çözümler" />
 
+        <link rel="canonical" href="https://www.osmanogluendustriyel.com" />
+        <link rel="alternate" hrefLang="tr" href="https://www.osmanogluendustriyel.com" />
+        <link rel="alternate" hrefLang="en" href="https://www.osmanogluendustriyel.com" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.osmanogluendustriyel.com" />
+
         {/* Business Information */}
         <meta name="author" content="Osmanoğlu Endüstriyel Çözümler" />
         <meta name="company" content="Osmanoğlu Endüstriyel Çözümler" />
@@ -128,14 +140,6 @@ export default function RootLayout({
         <meta name="geo.placename" content="Gebze, Kocaeli" />
         <meta name="geo.position" content="40.7982;29.4313" />
         <meta name="ICBM" content="40.7982, 29.4313" />
-
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://www.osmanogluendustriyel.com" />
-
-        {/* Alternate Language Links */}
-        <link rel="alternate" hrefLang="tr" href="https://www.osmanogluendustriyel.com" />
-        <link rel="alternate" hrefLang="en" href="https://www.osmanogluendustriyel.com/en" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.osmanogluendustriyel.com" />
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
@@ -156,14 +160,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://www.osmanogluendustriyel.com",
+              "@id": "https://www.osmanogluendustriyel.com/#business",
               name: "Osmanoğlu Endüstriyel Çözümler",
               alternateName: "Osmanoğlu Endüstriyel Çözümler CNC",
               description: "Gebze'de CNC tezgah ile hassas metal parça üretimi yapan endüstriyel firma",
               url: "https://www.osmanogluendustriyel.com",
               telephone: "+90 544 320 03 37 - +90 535 712 16 69",
               email: "info@osmanogluendustriyel.com",
-              foundingDate: "2014",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
@@ -173,104 +176,19 @@ export default function RootLayout({
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: "40.8040",
-                longitude: "29.4722",
+                latitude: 40.8040,
+                longitude: 29.4722,
               },
               openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
               priceRange: "$$",
-              paymentAccepted: ["Cash", "Credit Card", "Bank Transfer"],
-              currenciesAccepted: ["TRY", "EUR", "USD"],
-              areaServed: [
-                {
-                  "@type": "City",
-                  name: "Gebze"
-                },
-                {
-                  "@type": "City",
-                  name: "Kocaeli"
-                },
-                {
-                  "@type": "City",
-                  name: "Izmit"
-                },
-                {
-                  "@type": "City",
-                  name: "Darıca"
-                },
-                {
-                  "@type": "City",
-                  name: "Çayırova"
-                }
-              ],
-              serviceArea: {
-                "@type": "GeoCircle",
-                geoMidpoint: {
-                  "@type": "GeoCoordinates",
-                  latitude: "40.8040",
-                  longitude: "29.4722",
-                },
-                geoRadius: "50000",
-              },
               image: [
                 "https://www.osmanogluendustriyel.com/images/gallery-1.png",
                 "https://www.osmanogluendustriyel.com/images/gallery-2.png",
               ],
+              logo: "https://www.osmanogluendustriyel.com/images/logo.png",
               sameAs: [
                 "https://www.facebook.com/osmanogluendustriyel",
                 "https://www.linkedin.com/company/osmanogluendustriyel",
-              ],
-              offers: [
-                {
-                  "@type": "Offer",
-                  name: "CNC Freze Hizmetleri",
-                  description: "Gebze'de hassas CNC freze ile metal parça üretimi",
-                  price: "Teklif Üzerine",
-                  priceCurrency: "TRY",
-                  availability: "https://schema.org/InStock",
-                  validFrom: "2024-01-01",
-                  areaServed: {
-                    "@type": "City",
-                    name: "Gebze, Kocaeli",
-                  },
-                  seller: {
-                    "@type": "Organization",
-                    name: "Osmanoğlu Endüstriyel Çözümler",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  name: "CNC Freze Hizmetleri",
-                  description: "Gebze'de hassas CNC freze ile metal parça üretimi",
-                  price: "Teklif Üzerine",
-                  priceCurrency: "TRY",
-                  availability: "https://schema.org/InStock",
-                  validFrom: "2024-01-01",
-                  areaServed: {
-                    "@type": "City",
-                    name: "Gebze, Kocaeli",
-                  },
-                  seller: {
-                    "@type": "Organization",
-                    name: "Osmanoğlu Endüstriyel Çözümler",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  name: "CNC Kesim Hizmetleri",
-                  description: "Hassas CNC kesim ve metal işleme hizmetleri",
-                  price: "Teklif Üzerine",
-                  priceCurrency: "TRY",
-                  availability: "https://schema.org/InStock",
-                  validFrom: "2024-01-01",
-                  areaServed: {
-                    "@type": "City",
-                    name: "Gebze, Kocaeli",
-                  },
-                  seller: {
-                    "@type": "Organization",
-                    name: "Osmanoğlu Endüstriyel Çözümler",
-                  },
-                },
               ],
               aggregateRating: {
                 "@type": "AggregateRating",
@@ -282,106 +200,88 @@ export default function RootLayout({
               review: [
                 {
                   "@type": "Review",
-                  reviewRating: {
-                    "@type": "Rating",
-                    ratingValue: "5",
-                    bestRating: "5",
-                    worstRating: "1",
-                  },
                   author: {
                     "@type": "Person",
                     name: "Mehmet Yılmaz",
                   },
-                  reviewBody:
-                    "Gebze'deki en iyi CNC tezgah firması. Kaliteli işçilik ve hızlı teslimat. Özellikle otomotiv parçaları için mükemmel çözümler sunuyorlar.",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                  reviewBody: "Gebze'deki en iyi CNC tezgah firması. Kaliteli işçilik ve hızlı teslimat.",
                   datePublished: "2024-01-15",
                 },
                 {
                   "@type": "Review",
-                  reviewRating: {
-                    "@type": "Rating",
-                    ratingValue: "5",
-                    bestRating: "5",
-                    worstRating: "1",
-                  },
                   author: {
                     "@type": "Person",
                     name: "Ayşe Demir",
                   },
-                  reviewBody:
-                    "CNC freze işlemleri için başvurduğumuz en güvenilir firma. Hassas işçilik ve zamanında teslimat.",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                  reviewBody: "CNC freze işlemleri için başvurduğumuz en güvenilir firma.",
                   datePublished: "2024-02-10",
                 },
                 {
                   "@type": "Review",
-                  reviewRating: {
-                    "@type": "Rating",
-                    ratingValue: "4",
-                    bestRating: "5",
-                    worstRating: "1",
-                  },
                   author: {
                     "@type": "Person",
                     name: "Ali Kaya",
                   },
-                  reviewBody:
-                    "Endüstriyel parça üretimi için çalıştığımız profesyonel ekip. Kalite standartları çok yüksek.",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "4",
+                    bestRating: "5",
+                  },
+                  reviewBody: "Endüstriyel parça üretimi için çalıştığımız profesyonel ekip.",
                   datePublished: "2024-02-20",
                 },
+              ],
+              offers: [
                 {
-                  "@type": "Review",
-                  reviewRating: {
-                    "@type": "Rating",
-                    ratingValue: "5",
-                    bestRating: "5",
-                    worstRating: "1",
+                  "@type": "Offer",
+                  name: "CNC Freze Hizmetleri",
+                  description: "Gebze'de hassas CNC freze ile metal parça üretimi",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01T00:00:00Z",
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Makina & Mühendislik",
                   },
-                  author: {
-                    "@type": "Person",
-                    name: "Fatma Özkan",
-                  },
-                  reviewBody:
-                    "CNC torna hizmetleri için Gebze'deki en iyi seçenek. Fiyat performans açısından çok memnunuz.",
-                  datePublished: "2024-03-05",
                 },
                 {
-                  "@type": "Review",
-                  reviewRating: {
-                    "@type": "Rating",
-                    ratingValue: "5",
-                    bestRating: "5",
-                    worstRating: "1",
+                  "@type": "Offer",
+                  name: "CNC Torna Hizmetleri",
+                  description: "Silindirik parçalar için CNC torna işlemleri",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01T00:00:00Z",
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Makina & Mühendislik",
                   },
-                  author: {
-                    "@type": "Person",
-                    name: "Mustafa Çelik",
+                },
+                {
+                  "@type": "Offer",
+                  name: "CNC Kesim Hizmetleri",
+                  description: "Hassas CNC kesim ve metal işleme hizmetleri",
+                  price: "Teklif Üzerine",
+                  priceCurrency: "TRY",
+                  availability: "https://schema.org/InStock",
+                  validFrom: "2024-01-01T00:00:00Z",
+                  seller: {
+                    "@type": "Organization",
+                    name: "Osmanoğlu Makina & Mühendislik",
                   },
-                  reviewBody: "Prototip üretiminden seri üretime kadar her aşamada destek aldığımız güvenilir firma.",
-                  datePublished: "2024-03-12",
                 },
               ],
-              hasOfferCatalog: {
-                "@type": "OfferCatalog",
-                name: "CNC Machining Services",
-                itemListElement: [
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "CNC Freze Hizmetleri",
-                      description: "Hassas CNC freze ile metal parça üretimi",
-                    },
-                  },
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "CNC Torna Hizmetleri",
-                      description: "Silindirik parçalar için CNC torna işlemleri",
-                    },
-                  },
-                ],
-              },
             }),
           }}
         />
@@ -413,14 +313,28 @@ export default function RootLayout({
               foundingDate: "2014",
               numberOfEmployees: "10-50",
               industry: "Manufacturing",
-              knowsAbout: [
-                "CNC Machining",
-                "Metal Parts Manufacturing",
-                "Precision Engineering",
-                "Automotive Parts",
-                "Industrial Components",
-              ],
               slogan: "Gebze'nin CNC Uzmanı - Hassas İşleme, Kaliteli Üretim",
+            }),
+          }}
+        />
+
+        {/* Product Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: "Osmanoğlu Endüstriyel",
+              description: "CNC tezgah ile hassas metal parça üretimi",
+              brand: {
+                "@type": "Brand",
+                name: "Osmanoğlu Endüstriyel",
+              },
+              manufacturer: {
+                "@type": "Organization",
+                name: "Osmanoğlu Endüstriyel",
+              },
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
@@ -428,64 +342,67 @@ export default function RootLayout({
                 bestRating: "5",
                 worstRating: "1",
               },
-            }),
-          }}
-        />
-
-        {/* Manufacturing Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ManufacturingBusiness",
-              name: "Osmanoğlu Endüstriyel",
-              description: "CNC tezgah ile hassas metal parça üretimi",
-              url: "https://www.osmanogluendustriyel.com",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli",
-                addressLocality: "Gebze",
-                addressRegion: "Kocaeli",
-                postalCode: "41400",
-                addressCountry: "TR",
-              },
-              telephone: "+90 544 320 03 37 - +90 535 712 16 69",
-              email: "info@osmanogluendustriyel.com",
-              makesOffer: [
+              // REQUIRED: review for Product
+              review: [
                 {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Product",
-                    name: "CNC İşlenmiş Metal Parçalar",
-                    description: "Otomotiv ve endüstriyel uygulamalar için hassas metal parçalar",
+                  "@type": "Review",
+                  author: {
+                    "@type": "Person",
+                    name: "Fatma Özkan",
                   },
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                  reviewBody: "CNC torna hizmetleri için Gebze'deki en iyi seçenek.",
+                  datePublished: "2024-03-05",
+                },
+                {
+                  "@type": "Review",
+                  author: {
+                    "@type": "Person",
+                    name: "Mustafa Çelik",
+                  },
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                  },
+                  reviewBody: "Prototip üretiminden seri üretime kadar her aşamada destek aldığımız güvenilir firma.",
+                  datePublished: "2024-03-12",
                 },
               ],
+              // REQUIRED: offers for Product
               offers: {
                 "@type": "AggregateOffer",
                 priceCurrency: "TRY",
-                lowPrice: "1000",
-                highPrice: "100000",
+                lowPrice: "100",
+                highPrice: "10000",
                 offerCount: "3",
+                availability: "https://schema.org/InStock",
+                seller: {
+                  "@type": "Organization",
+                  name: "Osmanoğlu Makina & Mühendislik",
+                },
                 offers: [
                   {
                     "@type": "Offer",
-                    name: "Gebze CNC Kesim",
+                    name: "CNC Freze",
                     price: "Teklif Üzerine",
                     priceCurrency: "TRY",
                     availability: "https://schema.org/InStock",
                   },
                   {
                     "@type": "Offer",
-                    name: "Gebze CNC Freze",
+                    name: "CNC Torna",
                     price: "Teklif Üzerine",
                     priceCurrency: "TRY",
                     availability: "https://schema.org/InStock",
                   },
                   {
                     "@type": "Offer",
-                    name: "Gebze CNC Torna",
+                    name: "CNC Kesim",
                     price: "Teklif Üzerine",
                     priceCurrency: "TRY",
                     availability: "https://schema.org/InStock",
@@ -502,6 +419,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FAQPage",
+              "@id": "https://www.osmanoglumakina.com/#faq",
               mainEntity: [
                 {
                   "@type": "Question",
@@ -528,6 +446,26 @@ export default function RootLayout({
                   },
                 },
               ],
+            }),
+          }}
+        />
+        {/* WebSite Schema for Search Box */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.osmanogluendustriyel.com/#website",
+              name: "Osmanoğlu Endüstriyel",
+              alternateName: "Gebze CNC Uzmanı",
+              url: "https://www.osmanogluendustriyel.com",
+              description: "Gebze'nin lider CNC tezgah firması",
+              inLanguage: "tr-TR",
+              publisher: {
+                "@type": "Organization",
+                name: "Osmanoğlu Endüstriyel",
+              },
             }),
           }}
         />

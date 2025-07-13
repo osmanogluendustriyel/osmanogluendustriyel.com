@@ -3,17 +3,30 @@ Allow: /
 Disallow: /private/
 Disallow: /admin/
 Disallow: /api/
+Disallow: /temp/
+Disallow: /_next/
+Disallow: /404
+Disallow: /500
 
 User-agent: Googlebot
 Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
 Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
 Crawl-delay: 1
 
 User-agent: YandexBot
 Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
 Crawl-delay: 2
 
 Sitemap: https://www.osmanogluendustriyel.com/sitemap.xml

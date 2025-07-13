@@ -43,9 +43,9 @@ export function HeroSection({ content }: HeroSectionProps) {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            {content.hero.title}
+            Gebze CNC Tezgah Uzmanı - Osmanoğlu Endüstriyel
           </h1>
-          <p className="text-xl md:text-2xl text-blue-200 mb-8 font-medium">{content.hero.subtitle}</p>
+          <p className="text-xl md:text-2xl text-blue-200 mb-8 font-medium">CNC Kesim, Freze ve Torna Hizmetleri - Hassas Metal Parça Üretimi</p>
           <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">{content.hero.description}</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
