@@ -6,45 +6,44 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Gebze CNC | Osmanoğlu Endüstriyel - CNC Kesim, Talaşlı İmalat",
+  title: "Gebze CNC | Osmanoğlu - Talaşlı İmalat & CNC Kesim",
   description:
-    "Gebze CNC tezgah uzmanı! CNC kesim, Talaşı imalat hizmetleri. Hassas metal parça üretimi. ✓10+ yıl deneyim ✓Hızlı teslimat ✓Uygun fiyat",
+    "Gebze CNC ve talaşlı imalat uzmanı! CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi. ✓10+ yıl deneyim ✓Hızlı teslimat",
   keywords: [
-    // Primary Keywords
-    "Gebze Talaşlı İmalat",
-    "Gebze Kaynak Kalıp İmalatı",
-    "Gebze Torna",
-    "Kaynak Kalıp İmalatı Gebze",
-    "Talaşlı İmalat Gebze",
-    "Talaşlo İmalat Torna",
-    
-    // Secondary Keywords
     "Gebze CNC",
-    "Gebze CNC kesim",
-    "Gebze metal parça",
-    "CNC kesim hizmetleri Gebze",
-    "Gebze hassas işleme",
-    "CNC machining Gebze",
-
-    // Long-tail Keywords
-    "Gebze organize sanayi CNC",
-    "Gebze CNC freze torna",
-    "Kocaeli metal parça üretimi",
-    "Gebze otomotiv parça üretimi",
-    "CNC tezgah hizmetleri Gebze",
-    "Gebze endüstriyel parça üretimi",
-
-    // Location-based
+    "CNC kesim",
+    "CNC freze",
+    "CNC torna",
+    "Gebze CNC tezgah",
+    "metal parça üretimi",
+    "Gebze makine",
+    "CNC işleme",
+    "hassas işleme",
+    "Kocaeli CNC",
     "Gebze OSB",
-    "Kocaeli CNC kesim",
-    "İzmit CNC tezgah",
-    "Darıca CNC işleme",
-
-    // Service-based
-    "hassas CNC işleme Gebze",
-    "seri üretim CNC Gebze",
-    "prototip üretimi Gebze",
-    "özel parça üretimi Gebze",
+    "CNC hizmetleri",
+    "otomotiv parçaları",
+    "endüstriyel parçalar",
+    "Osmanoğlu Makina",
+    "talaşlı imalat",
+    "talaşlı imalat cnc",
+    "cnc talaşlı imalat",
+    "cnc imalat",
+    "endüstriyel imalat",
+    "cnc ebatlama",
+    "cnc kesme",
+    "cnc üreticileri",
+    "cnc kesim modelleri",
+    "talaşlı üretim",
+    "talaşlı imalat firmaları",
+    "gebze talaşlı imalat firmaları",
+    "cnc kesim yapan yerler",
+    "cnc kesim fiyatları",
+    "talaşlı imalat yapan firmalar",
+    "talaşlı imalat izmir",
+    "talaşlı imalat ürünleri",
+    "talaşlı imalat ankara",
+    "siensi kesim modelleri",
   ].join(", "),
   authors: [{ name: "Osmanoğlu Endüstriyel Çözümler" }],
   creator: "Osmanoğlu Endüstriyel Çözümler",
@@ -62,10 +61,10 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     alternateLocale: "en_US",
     url: "https://www.osmanogluendustriyel.com",
-    siteName: "Osmanoğlu Endüstriyel Çözümler - Gebze CNC Uzmanı",
-    title: "Gebze CNC | Osmanoğlu Endüstriyel - CNC Kesim, Talaşlı İmalat",
+    siteName: "Osmanoğlu Endüstriyel - Gebze CNC ve Talaşlı İmalat Uzmanı",
+    title: "Gebze CNC | Osmanoğlu - Talaşlı İmalat & CNC Kesim",
     description:
-      "Gebze CNC tezgah uzmanı! Hassas CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi. 10+ yıl deneyim, hızlı teslimat.",
+      "Gebze CNC ve talaşlı imalat uzmanı! CNC kesim, freze, torna hizmetleri. Hassas metal parça üretimi. 10+ yıl deneyim.",
     images: [
       {
         url: "https://www.osmanogluendustriyel.com/images/gallery-1.png",
@@ -152,6 +151,19 @@ export default function RootLayout({
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H125TNEGKD"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-H125TNEGKD');
+            `,
+          }}
+        />
 
         {/* Local Business Schema */}
         <script

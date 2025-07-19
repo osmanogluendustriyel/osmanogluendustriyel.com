@@ -31,7 +31,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Adres</h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">{content.contact.info.address}</p>
+                      <p className="text-gray-600 text-sm leading-relaxed">Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli</p>
                     </div>
                   </div>
                 </CardContent>
@@ -45,8 +45,8 @@ export function ContactSection({ content }: ContactSectionProps) {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Telefon</h3>
-                      <p className="text-gray-600 text-sm">{content.contact.info.phone1}</p>
-                      <p className="text-gray-600 text-sm">{content.contact.info.phone2}</p>
+                      <p className="text-gray-600 text-sm">+90 535 712 16 69</p>
+                      <p className="text-gray-600 text-sm">+90 544 320 03 37</p>
                     </div>
                   </div>
                 </CardContent>
@@ -60,7 +60,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">E-posta</h3>
-                      <p className="text-gray-600 text-sm break-all">{content.contact.info.email}</p>
+                      <p className="text-gray-600 text-sm break-all">info@osmanogluendustriyel.com</p>
                     </div>
                   </div>
                 </CardContent>
