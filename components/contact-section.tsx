@@ -30,8 +30,8 @@ export function ContactSection({ content }: ContactSectionProps) {
                       <MapPin className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">Adres</h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">Sultan Orhan mah. Hasköy Sanayi Sitesi 11/B blok no: 22 Gebze/Kocaeli</p>
+                      <h3 className="font-semibold text-gray-900 mb-2">{content.contact.labels.address}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">{content.contact.info.address}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -44,9 +44,9 @@ export function ContactSection({ content }: ContactSectionProps) {
                       <Phone className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">Telefon</h3>
-                      <p className="text-gray-600 text-sm">+90 535 712 16 69</p>
-                      <p className="text-gray-600 text-sm">+90 544 320 03 37</p>
+                      <h3 className="font-semibold text-gray-900 mb-2">{content.contact.labels.phone}</h3>
+                      <p className="text-gray-600 text-sm">{content.contact.info.phone1}</p>
+                      <p className="text-gray-600 text-sm">{content.contact.info.phone2}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -59,8 +59,8 @@ export function ContactSection({ content }: ContactSectionProps) {
                       <Mail className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">E-posta</h3>
-                      <p className="text-gray-600 text-sm break-all">info@osmanogluendustriyel.com</p>
+                      <h3 className="font-semibold text-gray-900 mb-2">{content.contact.labels.email}</h3>
+                      <p className="text-gray-600 text-sm break-all">{content.contact.info.email}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -73,7 +73,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                       <Clock className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">Çalışma Saatleri</h3>
+                      <h3 className="font-semibold text-gray-900 mb-2">{content.contact.labels.hours}</h3>
                       <p className="text-gray-600 text-sm">{content.contact.info.hours}</p>
                     </div>
                   </div>
@@ -84,13 +84,11 @@ export function ContactSection({ content }: ContactSectionProps) {
             {/* WhatsApp Contact Button */}
             <Card className="border-0 shadow-lg bg-gradient-to-r from-green-50 to-blue-50">
               <CardContent className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Hızlı İletişim</h3>
-                <p className="text-gray-600 mb-6">
-                  WhatsApp üzerinden anında iletişime geçin ve CNC tezgah hizmetlerimiz hakkında bilgi alın.
-                </p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">{content.contact.quickContact.title}</h3>
+                <p className="text-gray-600 mb-6">{content.contact.quickContact.description}</p>
                 <WhatsAppButton
-                  phoneNumber="+905XXXXXXXXX"
-                  message="Merhaba, CNC tezgah hizmetleriniz hakkında bilgi almak istiyorum."
+                  phoneNumber="+905443200337"
+                  message={content.contact.quickContact.whatsappMessage}
                   className="w-full sm:w-auto"
                 />
               </CardContent>
@@ -100,13 +98,13 @@ export function ContactSection({ content }: ContactSectionProps) {
           {/* Interactive Leaflet Map */}
           <Card className="border-0 shadow-lg">
             <CardHeader>
-              <CardTitle className="text-2xl text-gray-900">Konumumuz</CardTitle>
-              <p className="text-gray-600">Gebze Hasköy Sanayi Sitesi'ndeki tesisimizi haritada görün</p>
+              <CardTitle className="text-2xl text-gray-900">{content.contact.map.title}</CardTitle>
+              <p className="text-gray-600">{content.contact.map.description}</p>
             </CardHeader>
             <CardContent>
               <div className="w-full h-96 rounded-lg overflow-hidden bg-gray-100">
                 <iframe
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=29.4613%2C40.7982%2C29.4813%2C40.8182&layer=mapnik&marker=40.8040%2C29.4722 "
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=29.4613%2C40.7982%2C29.4813%2C40.8182&layer=mapnik&marker=40.8040%2C29.4722"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -118,8 +116,7 @@ export function ContactSection({ content }: ContactSectionProps) {
               </div>
               <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                 <p className="text-sm text-blue-800">
-                  <strong>Ulaşım:</strong> Gebze Hasköy Sanayi Sitesi içerisinde yer alan tesisimize hem özel araç
-                  hem de toplu taşıma ile kolayca ulaşabilirsiniz.
+                  <strong>{content.contact.map.routeLabel}</strong> {content.contact.map.routeNote}
                 </p>
               </div>
             </CardContent>

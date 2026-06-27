@@ -3,82 +3,35 @@
 import { Card } from "@/components/ui/card"
 import { useState } from "react"
 import { X } from "lucide-react"
+import type { Content } from "@/hooks/use-content"
 
 interface GallerySectionProps {
-  content: any
+  content: Content
 }
 
 export function GallerySection({ content }: GallerySectionProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
-  const galleryImages = [
-    {
-      src: "/images/gallery-11.png",
-      alt: "Alüminyum Bağlantı Bloğu",
-      title: "Hidrolik sistemlerde akış yönlendirme için işlenmiş hassas bağlantı parçaları",
-    },
-    {
-      src: "/images/gallery-17.png",
-      alt: "Aşınma Dayanımlı Kılavuz",
-      title: "Sürtünmeye ve Darbelere Dayanıklı Yönlendirme Elemanları",
-    },
-    {
-      src: "/images/gallery-18.png",
-      alt: "Maskeleme Kalıpları",
-      title: "Maskeleme Kalıpları",
-    },
-    {
-      src: "/images/gallery-4.png",
-      alt: "Hassas Metal Parça",
-      title: "Hassas Metal Parçalar",
-    },
-    {
-      src: "/images/gallery-10.png",
-      alt: "Silindirik Parça Destek Kılavuzu",
-      title: "Sabitleme için Yüksek Yoğunluklu Plastik Parçalar",
-    },
-    {
-      src: "/images/gallery-6.png",
-      alt: "Kalıp ve Aparat",
-      title: "Kalıp ve Aparat Üretimi",
-    },
-    {
-      src: "/images/gallery-7.png",
-      alt: "Seri Üretim",
-      title: "Seri Üretim Kapasitesi",
-    },
-    {
-      src: "/images/gallery-8.png",
-      alt: "Hassas Flanş Üretimi",
-      title: "Hassas Flanş ve Bağlantı Parçaları",
-    },
-    {
-      src: "/images/gallery-16.png",
-      alt: "Paslanmaz Çelik Flanş",
-      title: "Boru sistemleri için işlenmiş sızdırmaz flanş.",
-    },
-  ]
-
   return (
-    <section className="py-20 bg-white">
+    <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tesisimiz ve Çalışmalarımız</h2>
-          <p className="text-xl text-blue-600 font-semibold">CNC Tezgah Yeteneklerimizi Görün</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{content.gallery.title}</h2>
+          <p className="text-xl text-blue-600 font-semibold">{content.gallery.subtitle}</p>
         </div>
 
         {/* Gallery Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {galleryImages.map((image, index) => (
+          {content.gallery.items.map((image, index) => (
             <Card
               key={index}
               className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden"
-              onClick={() => setSelectedImage(image.src)}
+              onClick={() => setSelectedImage(image.image)}
             >
               <div className="relative group">
                 <img
-                  src={image.src || "/placeholder.svg"}
+                  src={image.image || "/placeholder.svg"}
                   alt={image.alt}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />

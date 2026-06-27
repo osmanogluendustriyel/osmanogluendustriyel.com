@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     "talaşlı imalat izmir",
     "talaşlı imalat ürünleri",
     "talaşlı imalat ankara",
-    "siensi kesim modelleri",
   ].join(", "),
   authors: [{ name: "Osmanoğlu Endüstriyel Çözümler" }],
   creator: "Osmanoğlu Endüstriyel Çözümler",
@@ -431,7 +430,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FAQPage",
-              "@id": "https://www.osmanoglumakina.com/#faq",
+              "@id": "https://www.osmanogluendustriyel.com/#faq",
               mainEntity: [
                 {
                   "@type": "Question",

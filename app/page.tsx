@@ -3,6 +3,7 @@
 import { useContent } from "@/hooks/use-content"
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
+import { WeldingFixtureSpotlight } from "@/components/welding-fixture-spotlight"
 import { AboutSection } from "@/components/about-section"
 import { ServicesSection } from "@/components/services-section"
 import { ProductsSection } from "@/components/products-section"
@@ -30,6 +31,7 @@ export default function Home() {
       <main className="min-h-screen">
         <Navigation content={content} language={language} onLanguageChange={switchLanguage} />
         <HeroSection content={content} />
+        <WeldingFixtureSpotlight content={content} />
         <AboutSection content={content} />
         <ServicesSection content={content} />
         <ProductsSection content={content} />
@@ -40,7 +42,7 @@ export default function Home() {
         {/* Floating WhatsApp Button */}
         <FloatingWhatsAppButton
           phoneNumber="+905443200337"
-          message="Merhaba, CNC tezgah hizmetleriniz hakkında bilgi almak istiyorum."
+          message={content.contact.quickContact.whatsappMessage}
         />
       </main>
     </>
