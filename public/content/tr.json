@@ -7,16 +7,24 @@
     "contact": "İletişim"
   },
   "hero": {
-    "title": "Osmanoğlu Endüstriyel Çözümler",
-    "subtitle": "Gebze'de Hassas CNC Tezgah Çözümleri",
+    "title": "Gebze CNC ve Talaşlı İmalat Uzmanı - Osmanoğlu Endüstriyel",
+    "subtitle": "CNC Kesim, Talaşlı İmalat, Freze ve Torna Hizmetleri - Hassas Metal Parça Üretimi",
     "description": "İleri CNC teknolojisi kullanarak yüksek hassasiyetli metal parça üretiminde öncü firma. On yılı aşkın süredir Gebze'nin endüstriyel sektörüne mükemmellik, kalite ve güvenilirlik ile hizmet veriyoruz.",
     "cta": "Teklif Al",
     "cta2": "Hizmetlerimiz"
   },
+  "weldingFixture": {
+    "badge": "Kaynak Fikstürü Çözümleri",
+    "title": "Kaynak Fikstür Tasarımı ve İmalatı",
+    "subtitle": "Yüksek Hassasiyet • Maksimum Verimlilik • Güçlü Çözümler",
+    "description": "Endüstriyel üretim sektörüne özel kaynak fikstürleri, robotik kaynak aparatları ve montaj fikstürleri üretiyoruz. Tasarım, mühendislik, CNC işleme ve kaynaklı imalat süreçlerini tek çatı altında yürüterek anahtar teslim çözümler sunuyoruz.",
+    "cta": "Teklif Alın",
+    "imageAlt": "Kaynak Fikstür Tasarımı ve İmalatı Hizmet Kartı - Osmanoğlu Makina ve Mühendislik"
+  },
   "about": {
-    "title": "Osmanoğlu Endüstriyel Çözümler Hakkında",
+    "title": "Gebze CNC Tezgah Firması - Osmanoğlu Endüstriyel Hakkında",
     "subtitle": "Gebze'deki Güvenilir CNC Tezgah Ortağınız",
-    "description": "Osmanoğu Endüstri, Gebze organize sanayi bölgesinde hassas metal parça üretiminin öncüsü konumundadır. CNC tezgah hizmetlerinde uzmanlaşarak, çeşitli endüstrilere eşsiz hassasiyet ve güvenilirlik ile yüksek kaliteli bileşenler sunuyoruz.",
+    "description": "Osmanoğlu Endüstri, Gebze organize sanayi bölgesinde hassas metal parça üretiminin öncüsü konumundadır. CNC tezgah hizmetlerinde uzmanlaşarak, çeşitli endüstrilere eşsiz hassasiyet ve güvenilirlik ile yüksek kaliteli bileşenler sunuyoruz.",
     "stats": [
       {
         "number": "10+",
@@ -48,11 +56,45 @@
         "title": "Hızlı Teslimat",
         "description": "Kaliteden ödün vermeden hızlı teslimat sağlayan verimli üretim süreçleri."
       }
+    ],
+    "machineShowcase": [
+      {
+        "image": "/images/gallery-1.png",
+        "alt": "Gebze CNC Freze Makinesi - Hassas Metal İşleme",
+        "title": "CNC Dik İşleme Merkezi",
+        "description": "Kompleks ve hassas metal parçaların yüksek doğrulukla işlenmesi"
+      },
+      {
+        "image": "/images/gallery-3.png",
+        "alt": "Gebze CNC Torna Makinesi - Silindirik Parça Üretimi",
+        "title": "CNC Dik İşleme Merkezi (Divizörlü)",
+        "description": "Otomotiv, kalıp ve savunma sanayi için yüksek verimli talaş kaldırma çözümleri"
+      }
+    ],
+    "quickLinks": [
+      {
+        "title": "CNC Hizmetlerimiz",
+        "description": "Gebze'de CNC kesim, freze ve torna hizmetleri",
+        "linkText": "Hizmetlerimizi İnceleyin",
+        "sectionId": "services"
+      },
+      {
+        "title": "Ürün Galerisi",
+        "description": "CNC ile ürettiğimiz hassas metal parçalar",
+        "linkText": "Galeriyi Görüntüleyin",
+        "sectionId": "gallery"
+      },
+      {
+        "title": "İletişim",
+        "description": "Gebze OSB'deki tesisimizi ziyaret edin",
+        "linkText": "İletişime Geçin",
+        "sectionId": "contact"
+      }
     ]
   },
   "services": {
-    "title": "CNC Hizmetlerimiz",
-    "subtitle": "Kapsamlı Metal Parça Üretim Çözümleri",
+    "title": "Gebze CNC ve Talaşlı İmalat Hizmetlerimiz",
+    "subtitle": "CNC Kesim, Talaşlı İmalat ve Hassas Metal İşlem",
     "items": [
       {
         "title": "CNC Freze",
@@ -91,21 +133,95 @@
     "subtitle": "Çeşitli Endüstriler İçin Hassas Metal Parçalar",
     "categories": [
       {
+        "name": "Kaynak Fikstürleri",
+        "items": [
+          {
+            "name": "Robotik Kaynak Fikstürü İmalatı",
+            "description": "Robot hücrelerine uygun, hızlı bağlama sistemleri ile yüksek tekrarlanabilirlik sağlayan robotik kaynak fikstürleri.",
+            "image": "/images/welding-fixture-robotic-arc.jpeg"
+          },
+          {
+            "name": "Kaynak Fikstürü Üretimi",
+            "description": "CNC işlenmiş gövde ve hızlı bağlantı elemanlarıyla, seri imalata uygun yüksek hassasiyetli kaynak fikstürü.",
+            "image": "/images/welding-fixture-overview.jpeg"
+          },
+          {
+            "name": "Manuel Kaynak Aparatları",
+            "description": "MIG/MAG ve TIG kaynak süreçleri için modüler ve esnek manuel kaynak aparatları.",
+            "image": "/images/welding-fixture-clamps-detail.jpeg"
+          }
+        ]
+      },
+      {
         "name": "Hassas Metal Parçalar",
         "items": [
           {
             "name": "Makine Parçaları",
-            "description": "Endüstriyel ekipman ve üretim sistemleri için özel makine bileşenleri."
+            "description": "Endüstriyel ekipman ve üretim sistemleri için özel makine bileşenleri.",
+            "image": "/images/products-1.png"
           },
           {
             "name": "Endüstriyel Öğütücü",
-            "description": "Metal, plastik ve endüstriyel atıkların parçalanması için yüksek torklu, dayanıklı öğütücü sistemi."
+            "description": "Metal, plastik ve endüstriyel atıkların parçalanması için yüksek torklu, dayanıklı öğütücü sistemi.",
+            "image": "/images/products-2.png"
           },
           {
             "name": "Özel Parça İşleme Fikstürü",
-            "description": "Karmaşık parçaların hassas, güvenli ve seri üretiminde kullanılan pnömatik kontrollü işleme fikstürü."
+            "description": "Karmaşık parçaların hassas, güvenli ve seri üretiminde kullanılan pnömatik kontrollü işleme fikstürü.",
+            "image": "/images/products-3.png"
           }
         ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Tesisimiz ve Çalışmalarımız",
+    "subtitle": "CNC Tezgah Yeteneklerimizi Görün",
+    "items": [
+      {
+        "image": "/images/gallery-11.png",
+        "alt": "Alüminyum Bağlantı Bloğu",
+        "title": "Hidrolik sistemlerde akış yönlendirme için işlenmiş hassas bağlantı parçaları"
+      },
+      {
+        "image": "/images/gallery-17.png",
+        "alt": "Aşınma Dayanımlı Kılavuz",
+        "title": "Sürtünmeye ve Darbelere Dayanıklı Yönlendirme Elemanları"
+      },
+      {
+        "image": "/images/gallery-18.png",
+        "alt": "Maskeleme Kalıpları",
+        "title": "Maskeleme Kalıpları"
+      },
+      {
+        "image": "/images/gallery-4.png",
+        "alt": "Hassas Metal Parça",
+        "title": "Hassas Metal Parçalar"
+      },
+      {
+        "image": "/images/gallery-10.png",
+        "alt": "Silindirik Parça Destek Kılavuzu",
+        "title": "Sabitleme için Yüksek Yoğunluklu Plastik Parçalar"
+      },
+      {
+        "image": "/images/gallery-6.png",
+        "alt": "Kalıp ve Aparat",
+        "title": "Kalıp ve Aparat Üretimi"
+      },
+      {
+        "image": "/images/gallery-7.png",
+        "alt": "Seri Üretim",
+        "title": "Seri Üretim Kapasitesi"
+      },
+      {
+        "image": "/images/gallery-8.png",
+        "alt": "Hassas Flanş Üretimi",
+        "title": "Hassas Flanş ve Bağlantı Parçaları"
+      },
+      {
+        "image": "/images/gallery-16.png",
+        "alt": "Paslanmaz Çelik Flanş",
+        "title": "Boru sistemleri için işlenmiş sızdırmaz flanş."
       }
     ]
   },
@@ -148,6 +264,23 @@
       "phone2": "+90 535 712 16 69",
       "email": "info@osmanogluendustriyel.com",
       "hours": "Pazartesi - Cuma: 08:00 - 18:00, Cumartesi: 08:00 - 13:00"
+    },
+    "labels": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri"
+    },
+    "quickContact": {
+      "title": "Hızlı İletişim",
+      "description": "WhatsApp üzerinden anında iletişime geçin ve CNC tezgah hizmetlerimiz hakkında bilgi alın.",
+      "whatsappMessage": "Merhaba, CNC tezgah hizmetleriniz hakkında bilgi almak istiyorum."
+    },
+    "map": {
+      "title": "Konumumuz",
+      "description": "Gebze Hasköy Sanayi Sitesi'ndeki tesisimizi haritada görün",
+      "routeLabel": "Ulaşım:",
+      "routeNote": "Gebze Hasköy Sanayi Sitesi içerisinde yer alan tesisimize hem özel araç hem de toplu taşıma ile kolayca ulaşabilirsiniz."
     },
     "form": {
       "name": "Ad Soyad",

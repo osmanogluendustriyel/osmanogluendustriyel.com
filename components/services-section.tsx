@@ -23,8 +23,8 @@ export function ServicesSection({ content }: ServicesSectionProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Gebze CNC ve Talaşlı İmalat Hizmetlerimiz</h2>
-          <p className="text-xl text-blue-600 font-semibold">CNC Kesim, Talaşlı İmalat ve Hassas Metal İşlem</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{content.services.title}</h2>
+          <p className="text-xl text-blue-600 font-semibold">{content.services.subtitle}</p>
         </div>
 
         {/* Services Grid */}
@@ -50,7 +50,7 @@ export function ServicesSection({ content }: ServicesSectionProps) {
                       document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
                     }}
                   >
-                    Teklif Al
+                    {content.hero.cta}
                     <ArrowRight className="ml-1 w-4 h-4" />
                   </a>
                 </CardContent>

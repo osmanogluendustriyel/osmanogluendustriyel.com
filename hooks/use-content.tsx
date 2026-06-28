@@ -19,6 +19,14 @@ export interface Content {
     cta: string
     cta2: string
   }
+  weldingFixture: {
+    badge: string
+    title: string
+    subtitle: string
+    description: string
+    cta: string
+    imageAlt: string
+  }
   about: {
     title: string
     subtitle: string
@@ -31,6 +39,18 @@ export interface Content {
       title: string
       description: string
     }>
+    machineShowcase: Array<{
+      image: string
+      alt: string
+      title: string
+      description: string
+    }>
+    quickLinks: Array<{
+      title: string
+      description: string
+      linkText: string
+      sectionId: string
+    }>
   }
   services: {
     title: string
@@ -41,6 +61,15 @@ export interface Content {
       icon: string
     }>
   }
+  gallery: {
+    title: string
+    subtitle: string
+    items: Array<{
+      image: string
+      alt: string
+      title: string
+    }>
+  }
   products: {
     title: string
     subtitle: string
@@ -49,6 +78,7 @@ export interface Content {
       items: Array<{
         name: string
         description: string
+        image: string
       }>
     }>
   }
@@ -69,6 +99,23 @@ export interface Content {
       phone2: string
       email: string
       hours: string
+    }
+    labels: {
+      address: string
+      phone: string
+      email: string
+      hours: string
+    }
+    quickContact: {
+      title: string
+      description: string
+      whatsappMessage: string
+    }
+    map: {
+      title: string
+      description: string
+      routeLabel: string
+      routeNote: string
     }
     form: {
       name: string
