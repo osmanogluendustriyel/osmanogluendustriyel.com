@@ -7,16 +7,24 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Osmanoğlu Endüstriyel Çözümler",
-    "subtitle": "Precision CNC Machining Solutions in Gebze",
+    "title": "Gebze CNC and Precision Machining Expert - Osmanoğlu Endüstriyel",
+    "subtitle": "CNC Cutting, Precision Machining, Milling and Turning Services - Precision Metal Parts Manufacturing",
     "description": "Leading manufacturer of high-precision metal parts using advanced CNC technology. Serving Gebze's industrial sector with excellence, quality, and reliability for over a decade.",
     "cta": "Get Quote",
     "cta2": "Our Services"
   },
+  "weldingFixture": {
+    "badge": "Welding Fixture Solutions",
+    "title": "Welding Fixture Design and Manufacturing",
+    "subtitle": "High Precision • Maximum Efficiency • Robust Solutions",
+    "description": "We manufacture welding fixtures, robotic welding jigs, and assembly fixtures for the industrial manufacturing sector. By handling design, engineering, CNC machining, and welded fabrication under one roof, we deliver turnkey solutions.",
+    "cta": "Get a Quote",
+    "imageAlt": "Welding Fixture Design and Manufacturing Service Card - Osmanoğlu Makina ve Mühendislik"
+  },
   "about": {
-    "title": "About Osmanoğlu Endüstriyel Çözümler",
+    "title": "Gebze CNC Machining Company - About Osmanoğlu Endüstriyel",
     "subtitle": "Your Trusted CNC Machining Partner in Gebze",
-    "description": "Osmanoğu Endüstri has been at the forefront of precision metal part manufacturing in Gebze's industrial zone. We specialize in CNC machining services, delivering high-quality components to various industries with unmatched precision and reliability.",
+    "description": "Osmanoğlu Endüstri has been at the forefront of precision metal part manufacturing in Gebze's industrial zone. We specialize in CNC machining services, delivering high-quality components to various industries with unmatched precision and reliability.",
     "stats": [
       {
         "number": "10+",
@@ -48,11 +56,45 @@
         "title": "Fast Turnaround",
         "description": "Efficient production processes ensuring quick delivery without compromising quality."
       }
+    ],
+    "machineShowcase": [
+      {
+        "image": "/images/gallery-1.png",
+        "alt": "Gebze CNC Milling Machine - Precision Metal Machining",
+        "title": "CNC Vertical Machining Center",
+        "description": "High-accuracy machining of complex and precision metal parts"
+      },
+      {
+        "image": "/images/gallery-3.png",
+        "alt": "Gebze CNC Turning Machine - Cylindrical Part Production",
+        "title": "CNC Vertical Machining Center (with Indexer)",
+        "description": "High-efficiency material removal solutions for the automotive, mold, and defense industries"
+      }
+    ],
+    "quickLinks": [
+      {
+        "title": "Our CNC Services",
+        "description": "CNC cutting, milling, and turning services in Gebze",
+        "linkText": "Explore Our Services",
+        "sectionId": "services"
+      },
+      {
+        "title": "Product Gallery",
+        "description": "Precision metal parts we manufacture with CNC",
+        "linkText": "View Gallery",
+        "sectionId": "gallery"
+      },
+      {
+        "title": "Contact",
+        "description": "Visit our facility in Gebze OSB",
+        "linkText": "Get in Touch",
+        "sectionId": "contact"
+      }
     ]
   },
   "services": {
-    "title": "Our CNC Services",
-    "subtitle": "Comprehensive Metal Part Manufacturing Solutions",
+    "title": "Our Gebze CNC and Precision Machining Services",
+    "subtitle": "CNC Cutting, Precision Machining, and Precision Metal Work",
     "items": [
       {
         "title": "CNC Milling",
@@ -91,21 +133,95 @@
     "subtitle": "Precision Metal Parts for Various Industries",
     "categories": [
       {
+        "name": "Welding Fixtures",
+        "items": [
+          {
+            "name": "Robotic Welding Fixture Manufacturing",
+            "description": "Robotic welding fixtures built for robot cells, with fast clamping systems for high repeatability.",
+            "image": "/images/welding-fixture-robotic-arc.jpeg"
+          },
+          {
+            "name": "Welding Fixture Production",
+            "description": "High-precision welding fixtures with CNC-machined bodies and quick-clamping elements, built for series production.",
+            "image": "/images/welding-fixture-overview.jpeg"
+          },
+          {
+            "name": "Manual Welding Jigs",
+            "description": "Modular, flexible manual welding jigs for MIG/MAG and TIG welding processes.",
+            "image": "/images/welding-fixture-clamps-detail.jpeg"
+          }
+        ]
+      },
+      {
         "name": "Precision Metal Parts",
         "items": [
           {
             "name": "Machine Components",
-            "description": "Custom machine components for industrial equipment and manufacturing systems."
+            "description": "Custom machine components for industrial equipment and manufacturing systems.",
+            "image": "/images/products-1.png"
           },
           {
             "name": "Industrial Shredder",
-            "description": "Heavy-duty shredder for metal, plastic, and industrial waste processing."
+            "description": "Heavy-duty shredder for metal, plastic, and industrial waste processing.",
+            "image": "/images/products-2.png"
           },
           {
             "name": "Custom Part Machining Fixture",
-            "description": "Precision fixture for secure machining of complex parts."
+            "description": "Precision fixture for secure machining of complex parts.",
+            "image": "/images/products-3.png"
           }
         ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Facility and Work",
+    "subtitle": "See Our CNC Machining Capabilities",
+    "items": [
+      {
+        "image": "/images/gallery-11.png",
+        "alt": "Aluminum Connection Block",
+        "title": "Precision connection parts machined for flow direction in hydraulic systems"
+      },
+      {
+        "image": "/images/gallery-17.png",
+        "alt": "Wear-Resistant Guide",
+        "title": "Guide Elements Resistant to Friction and Impact"
+      },
+      {
+        "image": "/images/gallery-18.png",
+        "alt": "Masking Molds",
+        "title": "Masking Molds"
+      },
+      {
+        "image": "/images/gallery-4.png",
+        "alt": "Precision Metal Part",
+        "title": "Precision Metal Parts"
+      },
+      {
+        "image": "/images/gallery-10.png",
+        "alt": "Cylindrical Part Support Guide",
+        "title": "High-Density Plastic Parts for Fixturing"
+      },
+      {
+        "image": "/images/gallery-6.png",
+        "alt": "Mold and Jig",
+        "title": "Mold and Jig Manufacturing"
+      },
+      {
+        "image": "/images/gallery-7.png",
+        "alt": "Series Production",
+        "title": "Series Production Capacity"
+      },
+      {
+        "image": "/images/gallery-8.png",
+        "alt": "Precision Flange Manufacturing",
+        "title": "Precision Flanges and Connection Parts"
+      },
+      {
+        "image": "/images/gallery-16.png",
+        "alt": "Stainless Steel Flange",
+        "title": "Sealed flange machined for piping systems."
       }
     ]
   },
@@ -148,6 +264,23 @@
       "phone2": "+90 535 712 16 69",
       "email": "info@osmanogluendustriyel.com",
       "hours": "Monday - Friday: 08:00 - 18:00, Saturday: 08:00 - 13:00"
+    },
+    "labels": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "description": "Reach us instantly via WhatsApp to learn more about our CNC machining services.",
+      "whatsappMessage": "Hello, I would like to get information about your CNC machining services."
+    },
+    "map": {
+      "title": "Our Location",
+      "description": "See our facility in Gebze Hasköy Industrial Site on the map",
+      "routeLabel": "Directions:",
+      "routeNote": "You can easily reach our facility in Gebze Hasköy Industrial Site by private car or public transportation."
     },
     "form": {
       "name": "Full Name",
