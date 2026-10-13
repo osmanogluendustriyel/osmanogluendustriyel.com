@@ -1,0 +1,13 @@
+{
+  "name": "osmanogluendustriyel-com",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  // Required (even when empty) by `wrangler preview`, which builds non-production branches
+  "previews": {},
+  // Static export only (`next build` with output: 'export'); there is no Worker code
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
