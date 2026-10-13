@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu } from "lucide-react"
+import { ArrowUpRight, Menu } from "lucide-react"
 import { LanguageSwitcher } from "./language-switcher"
 import type { Content, Language } from "@/hooks/use-content"
 
@@ -52,6 +52,13 @@ export function Navigation({ content, language, onLanguageChange }: NavigationPr
                 {content.navigation[item.key as keyof typeof content.navigation]}
               </button>
             ))}
+            <a
+              href={content.supply.url}
+              className="inline-flex items-center gap-1.5 rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700"
+            >
+              {content.supply.navLabel}
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
             <LanguageSwitcher currentLanguage={language} onLanguageChange={onLanguageChange} />
           </div>
 
@@ -75,6 +82,13 @@ export function Navigation({ content, language, onLanguageChange }: NavigationPr
                       {content.navigation[item.key as keyof typeof content.navigation]}
                     </button>
                   ))}
+                  <a
+                    href={content.supply.url}
+                    className="mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-blue-600 px-4 py-3 text-lg font-semibold text-white transition-colors hover:bg-blue-700"
+                  >
+                    {content.supply.navLabel}
+                    <ArrowUpRight className="w-5 h-5" />
+                  </a>
                 </div>
               </SheetContent>
             </Sheet>

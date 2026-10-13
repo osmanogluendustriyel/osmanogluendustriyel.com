@@ -89,6 +89,11 @@ export function Footer({ content }: FooterProps) {
                   {content.navigation.products}
                 </button>
               </li>
+              <li>
+                <a href={content.supply.url} className="text-gray-300 hover:text-white transition-colors">
+                  {content.supply.footerLink}
+                </a>
+              </li>
             </ul>
           </div>
 

@@ -7,6 +7,7 @@ import { WeldingFixtureSpotlight } from "@/components/welding-fixture-spotlight"
 import { AboutSection } from "@/components/about-section"
 import { ServicesSection } from "@/components/services-section"
 import { ProductsSection } from "@/components/products-section"
+import { SupplySection } from "@/components/supply-section"
 import { WhyChooseUsSection } from "@/components/why-choose-us-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
@@ -35,6 +36,7 @@ export default function Home() {
         <AboutSection content={content} />
         <ServicesSection content={content} />
         <ProductsSection content={content} />
+        <SupplySection content={content} />
         <GallerySection content={content} />
         <WhyChooseUsSection content={content} />
         <ContactSection content={content} />

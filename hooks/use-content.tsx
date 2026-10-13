@@ -82,6 +82,16 @@ export interface Content {
       }>
     }>
   }
+  supply: {
+    navLabel: string
+    badge: string
+    title: string
+    description: string
+    cta: string
+    footerLink: string
+    imageAlt: string
+    url: string
+  }
   whyChooseUs: {
     title: string
     subtitle: string
