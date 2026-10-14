@@ -176,12 +176,12 @@
   },
   "supply": {
     "navLabel": "Supply Store",
-    "badge": "Osmanoğlu Tedarik",
+    "badge": "Osmanoğlu Tedarik Merkezi",
     "title": "Hardware and industrial supplies, next door",
-    "description": "Our shop Osmanoğlu Tedarik, right beside the workshop, stocks hand tools, drill bits, cutting and abrasive tools, safety equipment and SGS products. Browse the product catalogue on the Tedarik site.",
+    "description": "Our shop Osmanoğlu Tedarik Merkezi, right beside the workshop, stocks hand tools, drill bits, cutting and abrasive tools, safety equipment and SGS products. Browse the product catalogue on the Tedarik site.",
     "cta": "Visit the Tedarik site",
-    "footerLink": "Osmanoğlu Tedarik (hardware)",
-    "imageAlt": "Entrance of the Osmanoğlu Tedarik shop in Hasköy Industrial Estate",
+    "footerLink": "Osmanoğlu Tedarik Merkezi (hardware)",
+    "imageAlt": "Entrance of the Osmanoğlu Tedarik Merkezi shop in Hasköy Industrial Estate",
     "url": "https://tedarik.osmanogluendustriyel.com/"
   },
   "gallery": {

@@ -176,12 +176,12 @@
   },
   "supply": {
     "navLabel": "Tedarik Mağazası",
-    "badge": "Osmanoğlu Tedarik",
+    "badge": "Osmanoğlu Tedarik Merkezi",
     "title": "Hırdavat ve endüstriyel malzeme de bizde",
-    "description": "Atölyemizin hemen yanındaki dükkânımız Osmanoğlu Tedarik’te el aletleri, matkap uçları, kesici ve aşındırıcılar, iş güvenliği ekipmanları ve SGS ürünlerini bulabilirsiniz. Ürün kataloğu Tedarik sitesinde.",
+    "description": "Atölyemizin hemen yanındaki dükkânımız Osmanoğlu Tedarik Merkezi’nde el aletleri, matkap uçları, kesici ve aşındırıcılar, iş güvenliği ekipmanları ve SGS ürünlerini bulabilirsiniz. Ürün kataloğu Tedarik sitesinde.",
     "cta": "Tedarik sitesine git",
-    "footerLink": "Osmanoğlu Tedarik (hırdavat)",
-    "imageAlt": "Osmanoğlu Tedarik dükkânının Hasköy Sanayi Sitesi’ndeki girişi",
+    "footerLink": "Osmanoğlu Tedarik Merkezi (hırdavat)",
+    "imageAlt": "Osmanoğlu Tedarik Merkezi dükkânının Hasköy Sanayi Sitesi’ndeki girişi",
     "url": "https://tedarik.osmanogluendustriyel.com/"
   },
   "gallery": {

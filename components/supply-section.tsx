@@ -7,7 +7,7 @@ interface SupplySectionProps {
   content: Content
 }
 
-/** Hırdavat tarafı (Osmanoğlu Tedarik) için tanıtım ve yönlendirme. */
+/** Hırdavat tarafı (Osmanoğlu Tedarik Merkezi) için tanıtım ve yönlendirme. */
 export function SupplySection({ content }: SupplySectionProps) {
   const { supply } = content
 
